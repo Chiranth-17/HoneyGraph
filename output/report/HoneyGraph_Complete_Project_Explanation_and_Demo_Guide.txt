@@ -1,0 +1,568 @@
+1. HoneyGraph
+Complete project explanation and live demo guide
+
+Understand the project. Explain the database. Show the evidence.
+
+RVCE | DBMS mini-project | Updated 23 November 2026
+
+Team member | USN
+CHIRANTH SUDHAKAR | 1RV24CY012
+CHIRAANTH S | 1RV24CY011
+MEGHASHYAM H PATIL | 1RV24CY030
+
+Guide: Prof. L Kala Chandrashekhar, Assistant Professor
+
+Your opening explanation
+
+SAY: Good morning. Our project is HoneyGraph, a MongoDB-based system that studies suspicious activity in a simulated IoT network. It stores device activity, detects suspicious patterns, connects related alerts into an attack chain, and shows the findings on a dashboard.
+
+SAY: Our main focus is DBMS. We use MongoDB validation, indexes, aggregation, change streams, graph lookup, transactions, geospatial queries, access control and replication. All devices and traffic are simulated. No real device is attacked.
+
+Simulated activity -> Stored events -> Detected alerts -> Incident chain -> Device risk
+
+How to use this guide
+
+Pages 2-8 explain the project. Pages 9-17 give the live demonstration. Pages 18-22 cover database proof, normalization, security and practical limits. Pages 23-24 are viva answers and a quick presentation sheet.
+
+NOTE: The guide matches the current implementation, including step-by-step demo mode. Saved screenshots and sample counts are from 19 November 2026; they are not a new performance test on 23 November.
+
+2. The problem and our objectives
+Explain the need before discussing the tools
+
+Problem statement in simple language
+
+An IoT network may contain cameras, energy meters, traffic controllers and environmental sensors. Every device can produce many small activity records. Looking at each record separately makes it difficult to notice repeated login failures, unusual traffic or activity moving between devices.
+
+A security analyst needs to answer: What happened? Which device was affected? Which rule detected it? How are different findings connected? Can we trust the stored evidence?
+
+SAY: The problem is not just collecting logs. We need to turn many separate observations into a clear investigation, while preserving links back to the evidence.
+
+Project objectives
+
+1. Generate realistic but safe activity for about 500 virtual IoT devices.
+2. Store structured events and reject records that do not follow the schema.
+3. Detect suspicious patterns using editable MongoDB aggregation rules.
+4. Connect related alerts into incidents and ordered multi-hop chains.
+5. Calculate device risk and find affected devices near a location.
+6. Detect changes, missing records and reordering in per-device log chains.
+7. Provide a role-aware dashboard backed by real database permissions.
+
+What makes the project a DBMS project?
+
+The database performs useful work: filtering and grouping events, notifying workers about inserts, traversing alert relationships, enforcing validation, committing related writes, locating nearby devices and expiring old data. Python coordinates these database operations; React presents the results.
+
+3. Understand the main terms
+One example explains the whole project
+
+Term | Simple meaning | HoneyGraph example
+IoT device | A network-connected asset | A virtual camera or energy meter
+Event | A record of one activity | A login attempt failed
+Detection rule | A stored condition for suspicious activity | Several failures from the same source
+Alert | A suspicious finding with evidence | Repeated login failures matched R-BRUTE-01
+Incident | Related alerts grouped for investigation | Scan, login and command alerts grouped together
+Attack chain | An ordered path through related activity | Source -> camera -> meter -> controller
+Actor / target | The source / destination of activity | actor IP -> target IP
+Severity / risk | Seriousness of one alert / accumulated device concern | Severity 8; device risk 32
+SOC | Security Operations Center | The analyst dashboard
+
+A simple Mirai-style story
+
+SAY: A simulated source scans a device, tries several passwords, records a successful login and then command activity. These observations become events. Detection rules identify suspicious patterns and create alerts. Related alerts are grouped into an incident, so the analyst can understand the sequence.
+
+A normal event does not automatically become an alert. An alert does not automatically prove a real compromise. The incident graph summarizes related observations; the underlying events remain the supporting evidence.
+
+NOTE: Mirai-style describes the pattern of synthetic records. This project does not contain a working Mirai botnet, password attack tool or exploit.
+
+4. Architecture and technology choices
+Explain the responsibility of each part
+
+Simulator -> FastAPI -> MongoDB events -> Detector -> Alerts
+
+Related alerts -> Graph lookup -> Transaction -> Incident + risk -> React dashboard
+
+Part | Technology | Why it is used
+Traffic generator | Python simulator | Reproducible normal and suspicious event records
+Backend | FastAPI + PyMongo | Validation, HTTP endpoints, authentication and database access
+Database | MongoDB 7.0 replica set | Documents, aggregation, change streams, graph queries and transactions
+Worker | Python detector | Receives change-stream inserts and executes stored rule pipelines
+Dashboard | React 18 + Vite + Tailwind | Clear screens for an analyst or administrator
+Visuals | vis-network, Recharts, Leaflet | Attack graph, contribution charts and device map
+Deployment | Docker Compose | Repeatable local setup for database, backend, worker and frontend
+
+SAY: We chose MongoDB because protocol payloads have different shapes, while the database also provides the processing features needed for detection and correlation. We still enforce a schema; flexible documents do not mean unrestricted data.
+
+The running Compose services are three MongoDB nodes, backend, detector and frontend. Initialization jobs prepare the keyfile and replica set. Dashboard scenario jobs invoke the correlator; telemetry and periodic checkpoint tools must be started separately when required.
+
+5. The collections and their relationships
+A collection is similar to a table; a document is similar to a row
+
+Collection | What it stores | Why separate?
+devices | deviceId, IP, type, firmware, location | One inventory record for each asset
+events | Time, protocol, payload, device, hashes | Raw evidence used by detection
+device_telemetry | Per-minute event and traffic summaries | Time-series storage for rollups
+rules | Rule metadata and aggregation pipelines | Detection logic can change at runtime
+alerts | Rule, actor, target, severity, eventIds | Suspicious findings linked to evidence
+incidents | Chain, investigation status and history | One useful investigation view
+risk_scores | Device score, top factors, calculation time | Fast dashboard reading of calculated risk
+users | Username, bcrypt password hash, role | Application authentication and authorization
+
+Supporting collections: system_state stores resume/checkpoint and integrity state. ground_truth stores benchmark labels separately from evidence; evaluation labels must not tell the detector what to detect.
+
+Show these references
+
+1. devices.deviceId -> events.deviceId and alerts.deviceId: one device has many records.
+2. rules.ruleId -> alerts.ruleId: one rule can produce many alerts.
+3. alerts.eventIds -> events._id: an alert can cite several events.
+4. alerts.incidentId -> incidents._id; incidents.chain[].alertId -> alerts._id.
+5. risk_scores.deviceId identifies the scored device; factors refer to contributing alerts.
+
+NOTE: These are application-managed references. MongoDB does not automatically enforce SQL foreign keys for them. Unique indexes protect named identifiers such as deviceId, ruleId and username.
+
+6. How an event enters the system
+Validation, ordering and hash chaining
+
+1. The simulator sends one event or a batch to POST /api/ingest. A batch can contain up to 5,000 events.
+2. Pydantic validates the request before storage. MongoDB strict JSON Schema validation checks the stored document again.
+3. The ingestion service finds each device chain head and serializes concurrent writes for that device.
+4. It assigns prevHash, hash, chainSeq, eventInsertedAt and an ingestBatchId.
+5. An unordered bulk insert runs inside a transaction. A failed batch aborts; the in-memory head stays at the last confirmed state.
+
+hash = SHA256(prevHash + canonical_event_json)
+Genesis prevHash = 64 zero characters
+
+The canonical data contains ts, deviceId, protocol, eventType, srcIp, geo and payload. Keys are sorted, unnecessary spaces are removed and timestamps use UTC with fixed millisecond precision. Equal event data therefore produces the same canonical bytes.
+
+SAY: Each device has its own chain. If somebody changes an old event, its recomputed hash no longer agrees. We do not force all devices through one global ordering point.
+
+Important implementation details
+
+The configured ingestion path uses w:1, which acknowledges the primary rather than a majority. Alerts and incident transactions use majority acknowledgement. This is a durability and throughput trade-off, not a promise of zero data loss during failover.
+
+NOTE: Locks and chain-head caches belong to one API process. The current setup runs one ingestion process. Scaling to independent writers needs coordination or partitioning per device. The checker sorts by event time, so backdated events can also affect integrity interpretation.
+
+7. How detection works
+Rules are data stored in MongoDB
+
+1. The detector watches inserts on the regular events collection using a MongoDB change stream.
+2. It loads active rules and refreshes the cache through a second change stream on rules.
+3. For an incoming event, it substitutes values such as {{srcIp}}, {{deviceId}}, {{ts}} or {{eventId}} into the stored pipeline.
+4. It prepends the rule time window, executes aggregation on events with a time limit, and creates an alert when the pipeline returns a match.
+5. It stores a resume token in system_state and uses dedupe/cooldown keys to reduce repeated alerts.
+
+Rule type | Simple question
+Windowed | Did too many suspicious activities happen within a time window?
+Distinct | Did one source touch many different users or devices?
+Sequence | Did failures happen before a success or command?
+Baseline | Is recent traffic unusually high compared with telemetry history?
+Allowlist | Is this client permitted to publish to this MQTT topic?
+
+SAY: The detection condition is an aggregation pipeline stored in the rules collection. An administrator can change a rule without changing the detector program or redeploying the system.
+
+Allowed stages include $match, $group, $project, $sort, $limit, $count, $addFields, $set and $unwind. Dangerous operators are checked recursively, including inside expressions. Stored rules cannot use $out, $merge, $function, $where, $accumulator or $lookup.
+
+NOTE: The trusted chain-builder uses graph lookup separately. The rule editor is deliberately more restricted. Restart recovery also depends on the stored resume point remaining available in the replica-set oplog.
+
+8. How incidents and risk are created
+Graph relationships plus reliable related writes
+
+Reconstruct the chain
+
+The chain builder uses $graphLookup on alerts. It follows targetIp -> actor relationships, uses reverse traversal to find a starting point and includes related same-source findings. Time bounds, a depth limit and duplicate/cycle handling constrain the result. The application orders the returned evidence for display.
+
+A -> B alert -> B -> C alert -> C -> D alert -> One ordered chain
+
+Commit related data together
+
+Transaction change | Why it must agree
+Create or update incidents | The investigation contains the reconstructed chain
+Set incidentId on related alerts | Evidence points to the correct investigation
+Upsert risk_scores | Affected devices reflect the detection evidence
+
+SAY: These changes happen in one multi-document transaction. Either they all commit or they all roll back. Snapshot reads provide a consistent transaction view, and majority acknowledgement is requested. Retrying the same chain must not create duplicate incidents.
+
+Explain the risk formula without mathematics first
+
+Recent severe alerts contribute more than old alerts. Contributions from the last 24 hours are added and capped at 100. With the default six-hour half-life, a severity-8 alert contributes about 8 now, 4 after six hours and 2 after twelve hours, when recalculated.
+
+contribution = severity * exp(-lambda * ageHours)
+lambda = ln(2) / halfLifeHours
+risk = min(100, sum(contributions))
+
+NOTE: MongoDB computes risk using aggregation, including $dateDiff and $exp. The API reads stored scores: they do not continuously decay on screen unless a calculation runs again. Time-series rollup writes stay outside the incident transaction.
+
+9. Prepare the project before presenting
+Run these steps before the evaluator arrives
+
+1. Open Docker Desktop and wait until the engine is ready.
+2. Open PowerShell in the project folder. Confirm the existing .env is available.
+3. Start the stack and check the service list with the commands below.
+4. Open the dashboard and sign in using the configured administrator account.
+5. Check that Rules has active entries and Device Risk has device markers.
+6. Keep a Live Alerts tab, a Scenarios & Users tab and Compass ready.
+
+Set-Location 'C:\Users\chira\OneDrive\Desktop\dbms(EL)'
+mingw32-make up
+docker compose ps
+Invoke-RestMethod http://localhost:18000/health
+
+Open | Address or credential source
+Dashboard | http://localhost:5173
+API / OpenAPI | http://localhost:18000/docs
+Local project MongoDB | localhost:37017; authentication database depends on the user
+Admin login | APP_ADMIN_USERNAME and APP_ADMIN_PASSWORD in .env
+Analyst login | APP_ANALYST_USERNAME and APP_ANALYST_PASSWORD in .env
+
+Use make instead of mingw32-make if that is the command installed on your machine. For a fresh database only, run mingw32-make seed after startup. It initializes schemas, users and rules; it does not create the 500-device inventory and may replace edits to seeded rules.
+
+NOTE: Do not clear database volumes for rehearsal. If inventory is empty, use the guarded preparation script on page 22. Prefer dashboard launches for the live demo: they use current timestamps, whereas the deterministic simulator CLI uses its fixed fixture clock.
+
+10. Demo 1: show events before incidents
+Use the step-by-step mode, not the automatic shortcut
+
+1. As admin, open Scenarios & Users.
+2. Enable Step-by-step demo (pause before incidents).
+3. Select mirai_bruteforce and click 1. Generate events once.
+4. Scroll to Events -> Alerts -> Incidents. This run is selected automatically. Inspect process reopens it later.
+5. Expand one event. Point to its eventType, deviceId, payload, prevHash and hash.
+6. Wait until the job says awaiting correlation. Expand one alert; show ruleId, stage, severity and eventIds.
+7. Point to Correlated incidents = 0. Pause here and explain the difference.
+8. Click 3. Build incident. Wait for the incident link, then click Open incident.
+
+SAY: First, these are raw observations. The API validated and stored them. Second, the detector ran MongoDB rules and produced these alerts. Notice that we still have zero incidents because presentation mode pauses correlation.
+
+SAY: Now I will build the incident from these existing alerts. The simulator does not insert a finished incident. The graph query and transaction create the investigation from detection evidence.
+
+Expected result
+
+The verified Mirai run on 19 November had 18 events and 10 alerts before correlation, then one incident. Your alert count may differ because of active rules, cooldowns and previous traffic. Read the real output instead of promising a fixed count.
+
+NOTE: Only incident materialization pauses. Change-stream detection continues normally. Do not run a separate chain-builder process against this paused run. Backend restarts clear job cards because run metadata is in process memory; saved database documents remain.
+
+11. What the three stages look like
+Point to the evidence, then explain what changed
+
+SCREENSHOT: Before clicking Build incident: 18 events, 10 alerts, 0 incidents.
+
+SAY: An event is an observation. An alert is a rule match. An incident connects related alerts into one investigation.
+
+SCREENSHOT: After explicit correlation: the incident count becomes 1 and an incident link appears.
+
+Expand document rows to show actual IDs and payloads. The panel displays up to 200 documents per stage. Its live query counts can advance while detection is still processing.
+
+NOTE: These are saved screenshots from the verified local run on 19 November 2026. During presentation, use the current run and its own Compass filters.
+
+12. Demo 2: Live Alerts and evidence tracing
+Show real-time delivery, then prove it in Compass
+
+1. Keep Live Alerts open in tab A. Clear filter fields, click Apply and check the live badge.
+2. In tab B, launch a new guided Mirai scenario. Return to tab A to show alerts arriving.
+3. Read one row: severity, rule, stage, device, actor -> target, detection time and latency.
+4. Return to the selected run evidence and expand Show the same evidence in MongoDB Compass.
+5. In Compass, open honeygraph.events and paste that run's events filter into Documents.
+6. Open honeygraph.alerts and paste the alerts filter. Expand eventIds and match one ID to an events._id.
+7. After Build incident, paste the incidents filter into honeygraph.incidents. Show chain[].alertId and the alerts' incidentId.
+
+SAY: The detector listens to changes in events. The dashboard connection listens to new alerts. MongoDB notifies the backend, and the backend pushes each alert through a WebSocket. These are separate database change streams.
+
+SAY: In Compass, the alert contains references to its evidence. The incident then contains the alert chain. This is how we trace the displayed finding back to the stored records.
+
+Use filters carefully
+
+The Device, Event type, Stage and time fields fetch a filtered REST result when Apply is clicked. Incoming WebSocket rows currently join the live feed regardless of these filter fields. Reapply filters when demonstrating a filtered result.
+
+NOTE: The live badge means the socket is connected; it does not generate traffic. Aim to show a quick arrival, but report the actual latency. One fast alert is not a p95 benchmark.
+
+13. Demo 3: the multi-hop chain and history
+Use lateral movement to show why graph traversal is useful
+
+1. Enable step-by-step mode, select lateral_movement and Generate events.
+2. Wait for alerts. Show zero incidents, then click Build incident and Open incident.
+3. Read the graph left to right. Each edge is an alert; each node is an IP address or device.
+4. Read Chain evidence in hop order. The previous target becomes the next actor.
+5. Click Mark triaged, then Mark closed. Point to the appended Status history entries.
+
+SCREENSHOT: Saved verified example: four connected edges, with hops numbered 0 through 3.
+
+SAY: An isolated alert gives one finding. The graph makes the relationship between findings visible. MongoDB graph lookup follows the connected IPs, and the investigation preserves the ordered evidence.
+
+Valid status path: open -> triaged -> closed. The API rejects skipping steps with HTTP 409. Status and history change together in one atomic update to the incident document; that operation is different from the multi-document incident-creation transaction.
+
+NOTE: Closing an incident records investigation progress. It does not delete evidence or automatically set device risk to zero. A graph is a correlation of observations, not proof that a real exploit succeeded.
+
+14. Demo 4: add a rule without restarting
+Demonstrate detection logic stored as data
+
+1. Open Rules as admin. Select an existing row and show its pipeline, severity, hit count and active toggle.
+2. Click New rule. Keep its generated unique Rule ID. Name it Presentation login-failure rule.
+3. Keep or paste the pipeline below and click Validate & publish.
+4. Wait briefly for the live rule cache to refresh. Launch a fresh Mirai scenario.
+5. In Live Alerts or the run evidence, find the exact new rule ID.
+6. Refresh Rules to read its hit count. Disable the presentation rule after showing it.
+
+[
+  {"$match": {
+    "srcIp": "{{srcIp}}",
+    "eventType": "login_failed"
+  }},
+  {"$limit": 1}
+]
+
+SAY: We added a document to the rules collection. The detector watched the change and refreshed its cache. New matching traffic fired the rule without restarting the service.
+
+Show rejection safely with another new rule
+
+Click New rule, replace its pipeline with [{"$out":"blocked_demo"}], then Validate & publish. The server should reject it. You can also demonstrate a nested $function expression: it is rejected even when placed inside an otherwise allowed $project stage. Do not overwrite a working rule just to show validation.
+
+NOTE: The simple demo rule matches one failure; it demonstrates live rule authoring, not a production-quality brute-force threshold. The generated form carries its rule type, time window and trigger settings. Invalid JSON is also rejected by the editor.
+
+15. Demo 5: device risk and the map
+Show location queries and explain the score
+
+1. After building the incidents, open Device Risk.
+2. Click Search radius to fetch current devices and stored risk scores.
+3. Move the radius slider, click Search radius again, and show the device count changing.
+4. Click a device marker. Show device type/IP, Risk score, Top factors and Recent timeline.
+5. Explain which rule contributions caused its score, using the factors chart.
+
+Map appearance | Current implementation
+Cyan | Risk below 35, including devices with no stored score
+Amber | Risk at least 35 and below 70
+Red | Risk at least 70
+Larger marker | Higher stored risk score
+Radius search | Distance in metres from the configured Bengaluru centre
+
+SAY: A device score combines recent alert severity with time decay. The factors chart explains the largest contributions. The map helps an analyst locate affected assets near a place.
+
+The backend uses $near on a GeoJSON Point with a 2dsphere index. GeoJSON coordinates are [longitude, latitude]; the map library displays latitude and longitude in its own format. The radius query returns nearby devices, including unaffected ones. Risk scores identify suspicious devices within that result.
+
+NOTE: A single severity-8 alert may leave a marker cyan; that is expected. Scores are stored and refresh on Search radius. Waiting alone does not recalculate time decay. Base-map tiles require internet, while database queries are local.
+
+16. Demo 6: tamper-evident log integrity
+Show the first broken link, not only a red warning
+
+1. Open Integrity. Enter a fresh selected device ID and click Run check to show a clean device chain, if available.
+2. As admin, click Run 3-mode demo. It creates three isolated six-event chains for edit, delete and swap.
+3. The demo modifies event 3, deletes event 3, and swaps the timestamps of events 3 and 4 on the respective chains.
+4. Read the new demo rows: device ID, Position, Reason and expected/stored values.
+5. Explain modified, missing and reordered. Each isolated demo should identify its first break at position 3.
+
+SAY: The hash of an event depends on its contents and the previous hash. Editing a record changes its expected hash. Deleting a middle record breaks the link or sequence. Swapping timestamps changes the order used by the checker.
+
+Why per-device chains?
+
+Each device can be checked independently. The checker walks records in timestamp order and reports the first detected break for that device. It uses chainSeq as well as stored hash links to distinguish missing and reordered records.
+
+Explain the limit honestly
+
+A hash chain is tamper-evident, not tamper-proof and not a blockchain. A party with sufficient write access could rewrite hashes. Deleting the newest tail is only detectable against a separately trusted checkpoint. The checkpoint CLI can export anchors to system_state and an external JSON file; the dashboard Run check does not perform that external-anchor comparison.
+
+NOTE: Old demo records can leave old failures in an all-device check. Identify the new demo IDs. TTL retention can remove chain prefixes, so retention expiry and unauthorized deletion require different operational interpretation.
+
+17. All seven simulation scenarios
+Know what each option demonstrates
+
+Scenario | Synthetic observations | Main explanation
+mirai_bruteforce | Scan, failures, success, command | Threshold/sequence detection; related stages form an investigation
+recon | One source touches several devices and ports | Distinct-device and port activity in a time window
+credential_stuffing | HTTP logins with different usernames | A source attempts several account identities
+mqtt_abuse | Restricted control-topic publish by an unapproved client | Allowlist-based detection
+lateral_movement | An internal source targets another device, then continues | Multi-hop relationships and graph reconstruction
+exfil_burst | bytesOut much higher than usual | A baseline comparison using telemetry history
+log_tamper | Synthetic update/delete-attempt event records | Intent indicators; use Integrity for actual three-mode mutations
+
+Important scenario conditions
+
+Exfiltration detection needs relevant historical device_telemetry baseline data. Without it, a launch can complete without a matching baseline alert. Do not promise an incident for every option regardless of its prerequisites.
+
+Selecting log_tamper on the dashboard creates attempt records. The dashboard launcher does not perform the simulator CLI's mutation helper. Use Integrity -> Run 3-mode demo when you want to demonstrate actual edited, deleted and swapped stored records.
+
+SAY: Scenarios provide controlled input records. Detection output still depends on the real active rules, cooldowns and required history. We do not fabricate an alert or incident when the conditions are not met.
+
+NOTE: The CLI generation/persistence path stores separate ground-truth labels for evaluation. Labels are not embedded in events or used as detection answers. Internal addresses use private ranges; attacker addresses use documentation ranges.
+
+18. DBMS features you can explain clearly
+Name the database operation and its practical benefit
+
+Feature | HoneyGraph use | Simple explanation
+JSON Schema validation | Strict validators on events, rules and alerts | Reject invalid structure at the database boundary
+Unique index | deviceId, IP, ruleId, username | Prevent duplicate identifiers
+Compound index | events: deviceId+ts, srcIp+ts, eventType+ts; alerts: actor+ts | Find selected activity efficiently within a time range
+Aggregation | Detection counts, distinct values, risk and summaries | Process matching documents inside MongoDB
+Change streams | New events, rule changes, alert delivery | React to changes without repeated full-table polling
+$graphLookup | Alert actor/target relationships | Follow connected records over several hops
+Transactions | Incident + alert links + risk | Commit related collection changes together
+2dsphere index | Device locations and radius queries | Use geographic distance rather than string matching
+TTL | Configured events retention | Expire old data automatically in the background
+Time-series collection | device_telemetry minute rollups | Store repeated time-based measurements efficiently
+
+Indexes improve matching reads but consume storage and add write work. TTL is asynchronous; expiry is not guaranteed at the exact second. The current event retention default is seven days, configurable through environment settings.
+
+NOTE: events stays a regular collection because the detector watches it and ingestion uses transactions. device_telemetry is time-series; it is not watched for event detection and its writes stay outside transactions. The rollup scheduler is a separate worker, not an always-running Compose service.
+
+19. Compass: prove database processing
+Use a working authenticated connection to the project database
+
+For the current host setup, use mongodb://localhost:37017/?directConnection=true and enter authentication separately. Root authenticates against admin; project service users authenticate against honeygraph. In this Compass form, enable Direct Connection and leave Replica Set Name blank. Use mongodb://, not mongodb+srv:// for localhost.
+
+The host may also have an unrelated MongoDB on 27017 with only three collections. Use the project port 37017. Container names mongo1/mongo2/mongo3 resolve inside Docker and can fail discovery from Windows Compass. Do not reconfigure the working replica set just to inspect it from Compass.
+
+A. Show schema and indexes
+
+Open honeygraph.events -> Indexes and point to compound and TTL indexes. In the embedded mongosh, select honeygraph and inspect validation using:
+
+use honeygraph
+db.getCollectionInfos({name: "events"})
+db.events.getIndexes()
+
+B. Show a useful aggregation
+
+db.alerts.aggregate([
+  {$group: {_id: "$stage", count: {$sum: 1}}},
+  {$sort: {count: -1}}
+])
+
+C. Show index usage
+
+Replace DEVICE_ID with an actual device ID from the current run. An indexed plan may still examine no documents if the filter matches none; use a device with stored events.
+
+db.events.find({deviceId: "DEVICE_ID"})
+  .sort({ts: 1}).explain("executionStats")
+
+SAY: The index helps MongoDB locate the matching activity. In Explain, I compare the plan, documents examined and keys examined. I use the actual result rather than claiming a fixed query time.
+
+20. Normalization and relational mapping
+Explain the design without calling MongoDB a relational database
+
+Normalization reduces repeated facts and update problems in a relational design. Our implementation uses MongoDB collections, references and embedded data. The relational mapping below is a conceptual DBMS explanation of the same entities, not a set of SQL tables secretly used by the application.
+
+Stage | Simple project explanation
+Unnormalized (UNF) | One big report contains a device, its events, repeated alert lists and incident history in nested/repeating groups. Device facts appear many times.
+First normal form (1NF) | In a relational view, move repeating lists into separate rows. Each relational cell holds one value. Keep events and alert-event links separately.
+Second normal form (2NF) | For a relation with a composite key, non-key facts must depend on the whole key. Device firmware belongs to Device, not AlertEvent(alertId,eventId).
+Third normal form (3NF) | Remove non-key-to-non-key dependencies: rule name/severity belong to Rule, and device type/IP belong to Device, referenced by their identifiers.
+
+ER-to-relational mapping: main entities and links
+
+Device(deviceId PK, ip UNIQUE, type, firmware, location)
+Event(eventId PK, deviceId FK, ts, protocol, payload, hash)
+Telemetry(telemetryId PK, deviceId FK, ts, eventCount, ...)
+Rule(ruleId PK, name, stage, severity, pipeline, active)
+Alert(alertId PK, ruleId FK, deviceId FK, incidentId FK, ...)
+AlertEvent(alertId PK/FK, eventId PK/FK)
+Incident(incidentId PK, status, createdAt, updatedAt)
+IncidentStep(incidentId PK/FK, position PK, alertId FK)
+StatusHistory(incidentId PK/FK, entryNo PK, status, ts, by)
+RiskScore(deviceId PK/FK, score, calculatedAt)
+RiskFactor(deviceId PK/FK, position PK, alertId FK, contribution)
+AppUser(userId PK, username UNIQUE, passwordHash, role, active)
+
+SAY: We separate reusable facts and use identifiers to reduce unnecessary repetition. In MongoDB, we also embed incident chain and history data because the detail screen reads them together. This is a deliberate document-modeling choice.
+
+NOTE: PK/FK labels apply to this conceptual relational mapping. MongoDB references do not automatically enforce foreign-key constraints. Array fields in MongoDB are valid; they do not mean the MongoDB application must literally satisfy relational 1NF.
+
+21. Security, roles and replication
+Application users and database service users are different
+
+Layer | What to explain
+Dashboard login | Passwords are stored as bcrypt hashes. A signed JWT authenticates API requests and expires after the configured time.
+Admin application role | Can author rules, launch scenarios, manage users and run tamper demos.
+Analyst application role | Can view evidence, run integrity checks and update valid incident statuses. Cannot perform admin-only actions.
+MongoDB service roles | Separate ingest, detector, API, rule-admin, analyst and tamper-demo users have scoped database privileges.
+Least privilege | Ingest can insert/find events but not edit/delete them. The separate tamper role can update/remove events for the controlled demo.
+
+Role demonstration
+
+1. Sign out of admin and sign in with the configured analyst account.
+2. Show that Rules and Scenarios & Users are absent from navigation.
+3. Try the admin page URL: the frontend denies access. Backend admin requests also return 403.
+4. Explain 401: missing/invalid/expired authentication; 403: authenticated user lacks permission.
+
+Replica set explanation
+
+Three MongoDB nodes form rs0. Normally one primary accepts writes and two secondaries replicate data. If the primary becomes unavailable, an eligible secondary can be elected. keyFile authentication protects member-to-member access. Replication improves availability; it is not a backup or sharding.
+
+rs.status().members.map(m => ({
+  name: m.name, state: m.stateStr
+}))
+
+NOTE: Application analyst is not the same identity as MongoDB analyst. App status updates use api_svc permissions. All three nodes run on the same laptop, so losing the laptop still stops the demo. Ingestion is a trusted local demo endpoint; production exposure needs additional protection.
+
+22. Preparation extras and practical limits
+Use these before the talk, and be precise about results
+
+If the device inventory is empty
+
+From the project root, this guarded PowerShell snippet inserts inventory only when devices is empty. It uses the existing .env, adds no activity evidence and preserves a non-empty inventory.
+
+@'
+import os, sys
+sys.path.insert(0, 'backend')
+from dotenv import load_dotenv
+from pymongo import MongoClient
+from simulator.devices import generate_devices, upsert_devices
+load_dotenv()
+with MongoClient(os.environ['MONGODB_URI']) as c:
+    db = c[os.getenv('MONGO_DATABASE', 'honeygraph')]
+    if db.devices.estimated_document_count() == 0:
+        upsert_devices(db, generate_devices(500, 42))
+    print('Devices:', db.devices.estimated_document_count())
+'@ | python
+
+Verification and API explanation
+
+Open /docs to show request/response models and routes for ingest, alerts, incidents, devices, risk, rules, integrity, users, scenarios and stats. The alert socket is /ws/alerts. The API separates frontend screens from database operations.
+
+mingw32-make test
+npm --prefix frontend test
+npm --prefix frontend run build
+# Optional headless acceptance demo; creates demo data:
+mingw32-make demo
+
+The 19 November guided-flow gate recorded 69 backend tests and 13 frontend tests passing. These are dated results, not tests rerun while preparing this guide. Benchmark reports under docs/BENCHMARKS.md have their own workload and date.
+
+NOTE: Do not call direct bulk-insert throughput full API throughput. Simplified benchmark quality is not production precision/recall. Risk recalculation, telemetry scheduling, external checkpoint comparison and continuous correlation outside dashboard jobs are separate operational tasks. The current system is a defensive course demo.
+
+23. Simple viva answers
+Use short answers, then point to the implementation
+
+Question | Answer in simple language
+Why MongoDB? | Different protocol payloads fit documents, and MongoDB supplies aggregation, streams, graph traversal and transactions. We still enforce schemas.
+Why not only Python processing? | The DBMS project demonstrates native database computation. Python coordinates the queries and displays their results.
+Event vs alert vs incident? | Event: activity. Alert: suspicious rule match. Incident: related alerts grouped into an investigation.
+What is a change stream? | A database notification feed for changes such as inserts. The detector uses it rather than repeatedly scanning everything.
+What does graph lookup do? | It recursively follows related alert actor/target IPs within defined time and depth bounds.
+Where is ACID used? | Incident creation, alert linking and risk updates commit together. Snapshot reads and majority writes support the transaction.
+Is it a blockchain? | No. It is a per-device SHA-256 hash chain, without distributed blockchain consensus.
+Can you detect deletion of the latest log? | Only when a separately trusted checkpoint proves that the missing tail previously existed.
+Why two kinds of time data? | events holds raw evidence; time-series device_telemetry holds per-minute summaries.
+Are the graph links foreign keys? | They are application-managed MongoDB references. SQL foreign-key labels are only for the conceptual relational mapping.
+Is analyst read-only? | The database analyst account is read-only. The application analyst can also triage incidents through the API.
+What is the outcome? | An analyst can trace suspicious findings to events, inspect connected chains, prioritize devices and check log integrity.
+
+SAY: The main learning is that a database can do more than store records. It can validate structure, react to changes, aggregate patterns, follow relationships and keep related writes consistent.
+
+24. Your presentation-day quick sheet
+Use this order for a clear 12-15 minute demonstration
+
+Time | Show | Main point
+0-2 min | Introduction + collections | Explain the problem, objectives and the event/alert/incident distinction.
+2-5 min | Guided Mirai + Compass | Events are stored first; rules create alerts; incident count stays zero until correlation.
+5-7 min | Lateral graph + history | Follow the hops, explain the transaction and move open -> triaged -> closed.
+7-9 min | New rule + rejection | Publish a valid rule live; reject $out without restarting.
+9-10 min | Risk map | Search radius, inspect one device and explain factors.
+10-12 min | Integrity | Show modified, missing and reordered positions.
+12-15 min | Analyst + DBMS proof | Explain permissions, indexes, validation and replica-set roles; conclude.
+
+If something does not update
+
+Symptom | First checks
+Offline / expired login | Sign in again; check backend and detector with docker compose ps.
+No alert | Clear filters, Apply, launch fresh traffic; inspect active rules, cooldowns and job error.
+No incident | In guided mode click Build incident after awaiting correlation. No matching alerts means no incident.
+Map unchanged | Click Search radius. Check scores, not just colors; low risk remains cyan.
+Compass ENOTFOUND mongo1 | Use direct localhost:37017 connection; remove replica discovery from that desktop connection.
+Old integrity failures | Identify the new tamper demo device IDs; investigate old data separately.
+
+SAY: HoneyGraph converts simulated IoT activity into traceable evidence, detections and investigations. MongoDB handles the core database operations, and the dashboard makes those results understandable. Thank you.
+
+NOTE: For five minutes: opening -> guided Mirai -> lateral graph -> transaction -> one integrity result -> conclusion. For every screen, say what data is stored, what database operation runs and why it helps.

@@ -1,0 +1,3505 @@
+{
+  "createdAt": "2026-10-14T14:54:11.942716+00:00",
+  "devices": {
+    "blr-camera-0001": {
+      "chainSeq": 156,
+      "eventCount": 156,
+      "eventId": "6acf9784a707d9d7f1dc5d25",
+      "hash": "83b26baa5cff49e2d3abc71c970f007e3cac257f2735bb3c5e5607475a392066",
+      "ts": "2026-10-14T00:00:49.412000"
+    },
+    "blr-camera-0005": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc5d38",
+      "hash": "e87e4134bf26a538c39c53e327e6744f76aa472d10fa84d533d68061fef9cdd8",
+      "ts": "2026-10-14T00:00:49.422000"
+    },
+    "blr-camera-0009": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc6159",
+      "hash": "a6ebcb7000c3de6108462ee1eb752563814945ca6178fd335cd2b695d46d1938",
+      "ts": "2026-10-14T00:00:49.950000"
+    },
+    "blr-camera-0013": {
+      "chainSeq": 177,
+      "eventCount": 177,
+      "eventId": "6acf9784a707d9d7f1dc6129",
+      "hash": "7fae8ebae52df95c40a1598d61f7bfc8cb9f21d7c42242a7be6593b524e8c5dd",
+      "ts": "2026-10-14T00:00:49.926000"
+    },
+    "blr-camera-0017": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc615b",
+      "hash": "df0c7422ee75a3e88513d5c780ba335fbc01234c68fcdc8c4f12365c8cb73bb3",
+      "ts": "2026-10-14T00:00:49.951000"
+    },
+    "blr-camera-0021": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc6153",
+      "hash": "9b199424394fa94461caf47d147fc2d679b089a32a73616460e808538af1e6ff",
+      "ts": "2026-10-14T00:00:49.947000"
+    },
+    "blr-camera-0025": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6198",
+      "hash": "49c629d1cf0b9815888ebf435b4afc892498ce2e67bd1e63409fe3238081a757",
+      "ts": "2026-10-14T00:00:49.982000"
+    },
+    "blr-camera-0029": {
+      "chainSeq": 218,
+      "eventCount": 218,
+      "eventId": "6acf9784a707d9d7f1dc5f51",
+      "hash": "a4bffe485fb61b453265942a97d4bacf96bc492e5dafb102672a6351d94e3d49",
+      "ts": "2026-10-14T00:00:49.690000"
+    },
+    "blr-camera-0033": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc6095",
+      "hash": "c98ee3b497f31c9ad922283d135053bb51c109fb38fa194c0da33f3839329c55",
+      "ts": "2026-10-14T00:00:49.852000"
+    },
+    "blr-camera-0037": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc6083",
+      "hash": "e330e336ecfe510bcb0c4b9ce71161471ab67a742f428a75b090fea548704857",
+      "ts": "2026-10-14T00:00:49.843000"
+    },
+    "blr-camera-0041": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc5e1f",
+      "hash": "c8bdf2c421412728298dfb359c6cf0c63282b0c55d1fabca27d6fcf77a680174",
+      "ts": "2026-10-14T00:00:49.537000"
+    },
+    "blr-camera-0045": {
+      "chainSeq": 150,
+      "eventCount": 150,
+      "eventId": "6acf9784a707d9d7f1dc5f8e",
+      "hash": "ddb8376f327b74b8f208e25e5a16d00a8d47f3bc45f244b83fb576a421c5dfde",
+      "ts": "2026-10-14T00:00:49.721000"
+    },
+    "blr-camera-0049": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5f27",
+      "hash": "8de60db006156e97ba0183d0229623dd9e7d6832eae13a94cd117661d9fe32de",
+      "ts": "2026-10-14T00:00:49.669000"
+    },
+    "blr-camera-0053": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc6042",
+      "hash": "db04c773321a2428d61efdbb4444d56af389cf7e75fb64908d2e31f1b7311e40",
+      "ts": "2026-10-14T00:00:49.811000"
+    },
+    "blr-camera-0057": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc615f",
+      "hash": "db0b8e1acb196d9861d61faea24f9e570453bfbd5c26f540c7f870e03c9a2d85",
+      "ts": "2026-10-14T00:00:49.953000"
+    },
+    "blr-camera-0061": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc60d1",
+      "hash": "c47a7e1c8f919d8105859a8792a6406c5ac0e8d480f1ae374e0ea35b30ea25a9",
+      "ts": "2026-10-14T00:00:49.882000"
+    },
+    "blr-camera-0065": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc6043",
+      "hash": "336deed2fa68b10ae01714651876099baa19afab608829d3f2d06c11b8e607b8",
+      "ts": "2026-10-14T00:00:49.811000"
+    },
+    "blr-camera-0069": {
+      "chainSeq": 185,
+      "eventCount": 185,
+      "eventId": "6acf9784a707d9d7f1dc5f19",
+      "hash": "9a1b33be22183a0630b204f923a8017a235c3987c05b4313652e92e754949778",
+      "ts": "2026-10-14T00:00:49.662000"
+    },
+    "blr-camera-0073": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc5ff8",
+      "hash": "20898a39aaff866a79ac4db8c34cf69a410da1c8298c21d5a4e40ad95e8ac3d7",
+      "ts": "2026-10-14T00:00:49.774000"
+    },
+    "blr-camera-0077": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5e03",
+      "hash": "7119a09998341c07258853ea25205df2d94ef26cc300d9ed84e8586e52853e7b",
+      "ts": "2026-10-14T00:00:49.523000"
+    },
+    "blr-camera-0081": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc5fe9",
+      "hash": "ca1492ba9e47ff6aee4731d0296286814bcea27d19eb47955719b2e11792fa15",
+      "ts": "2026-10-14T00:00:49.766000"
+    },
+    "blr-camera-0085": {
+      "chainSeq": 181,
+      "eventCount": 181,
+      "eventId": "6acf9784a707d9d7f1dc6046",
+      "hash": "dfe3a9f428f28ec1d6924e73772b4de32af3f4fccc4a3d406648db0b809d88f6",
+      "ts": "2026-10-14T00:00:49.813000"
+    },
+    "blr-camera-0089": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc614c",
+      "hash": "8a7d2622fae89446a20a6009eb660afe67b34363590e126f2ce676570c1efc99",
+      "ts": "2026-10-14T00:00:49.944000"
+    },
+    "blr-camera-0093": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc5fce",
+      "hash": "8428334c95662e5b09e21d520df1c01dd2492c012dce246c4920416185984831",
+      "ts": "2026-10-14T00:00:49.753000"
+    },
+    "blr-camera-0097": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6143",
+      "hash": "59072250661908aa912abb903e1364ba44d79e7cd8f0bbc834a8168cc58f62b0",
+      "ts": "2026-10-14T00:00:49.939000"
+    },
+    "blr-camera-0101": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc60c4",
+      "hash": "b4465411eccd452ca4767e571f7a871853df014596c5bfb0e04bbc77f855f14d",
+      "ts": "2026-10-14T00:00:49.876000"
+    },
+    "blr-camera-0105": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc5ef9",
+      "hash": "e457200644426fbe331974fa2344bff81c0e80648f6478530898e35b774d8422",
+      "ts": "2026-10-14T00:00:49.646000"
+    },
+    "blr-camera-0109": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc5fdc",
+      "hash": "0aaaa787b382e0d7af066124af19d2ecdc0eff9bf8a2f1e31f13b6f059d1a721",
+      "ts": "2026-10-14T00:00:49.760000"
+    },
+    "blr-camera-0113": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc60b4",
+      "hash": "d9408affe83f04077b081da037d66ecca99264de33bff0ec38ade315b2e01eae",
+      "ts": "2026-10-14T00:00:49.868000"
+    },
+    "blr-camera-0117": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc6133",
+      "hash": "e6e6e030431da9c5209510ec347fe231533e05c5e2204e558b59bb21c322b049",
+      "ts": "2026-10-14T00:00:49.931000"
+    },
+    "blr-camera-0121": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5d60",
+      "hash": "a3785e45d213f3bbb78c7639bb1c0038d88bfaff130b3484023ad475e89d7f1c",
+      "ts": "2026-10-14T00:00:49.442000"
+    },
+    "blr-camera-0125": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc60f4",
+      "hash": "976618aabaefe2d6699ad9b73cb7edc25794809a18edf7c9ee44aaa1b6bc6e35",
+      "ts": "2026-10-14T00:00:49.900000"
+    },
+    "blr-camera-0129": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc613a",
+      "hash": "b36313588a47d2b448922c367463c8433058ae1f55383538cfa6d417747a8d7c",
+      "ts": "2026-10-14T00:00:49.935000"
+    },
+    "blr-camera-0133": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc5f3e",
+      "hash": "6bfef92411535f67227636723542a674f8250b97422e055ab286f73c385c62c7",
+      "ts": "2026-10-14T00:00:49.681000"
+    },
+    "blr-camera-0137": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc6194",
+      "hash": "2daa45b73cd5ac595782984abba08f90a25867713a19749a38af789383f0c8aa",
+      "ts": "2026-10-14T00:00:49.980000"
+    },
+    "blr-camera-0141": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc6052",
+      "hash": "b31ad7a8d7c278e846cf990337c7cef2674c4b4f17b8074aad720f2fc03e32ff",
+      "ts": "2026-10-14T00:00:49.819000"
+    },
+    "blr-camera-0145": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc612a",
+      "hash": "c2795fc265ef9c28504d12a895a1b0889397145a3e41c6217f2e5c8d7aa0f516",
+      "ts": "2026-10-14T00:00:49.927000"
+    },
+    "blr-camera-0149": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc61b6",
+      "hash": "bd84ee2f4c67eab6848778930d22564e510e348a5fc94a23ca05d0eb35c9f595",
+      "ts": "2026-10-14T00:00:49.997000"
+    },
+    "blr-camera-0153": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc5edd",
+      "hash": "350238311df08f3e7e1f34abc607e4db5fa0afec04a95bcf8506ded46e5c9299",
+      "ts": "2026-10-14T00:00:49.632000"
+    },
+    "blr-camera-0157": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc6178",
+      "hash": "8708cd529558d3ffdab76b9b9c3c10cfd41c9f0129d3d8e42317bb80bd49998e",
+      "ts": "2026-10-14T00:00:49.966000"
+    },
+    "blr-camera-0161": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc6005",
+      "hash": "9b94f8e30a7b14efb47287932ccc7e220224c8438e053252c9d471aac1b5577e",
+      "ts": "2026-10-14T00:00:49.780000"
+    },
+    "blr-camera-0165": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5995",
+      "hash": "816de83af95add18f85430857fbe33aef2243e7b09c9a2b072530c54eba4640c",
+      "ts": "2026-10-14T00:00:48.956000"
+    },
+    "blr-camera-0169": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc60d4",
+      "hash": "3cf07a4e18057295a612229514c13f826b7e1221aff690ead6950722d1afcda5",
+      "ts": "2026-10-14T00:00:49.884000"
+    },
+    "blr-camera-0173": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc616a",
+      "hash": "f2aade2821ed4fa872345f705b70fb93402338e4c419403e44372258bc4a8fec",
+      "ts": "2026-10-14T00:00:49.959000"
+    },
+    "blr-camera-0177": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5e06",
+      "hash": "2f6a01111e9447f8fcc45e9abbc749529a92581f9b1c4a2e2b2b6f55eaa981a7",
+      "ts": "2026-10-14T00:00:49.525000"
+    },
+    "blr-camera-0181": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc6158",
+      "hash": "a51bdd125eaa0ca9dfeae482bbcd1f774db4f89d20624948ee7e648be1d42342",
+      "ts": "2026-10-14T00:00:49.950000"
+    },
+    "blr-camera-0185": {
+      "chainSeq": 166,
+      "eventCount": 166,
+      "eventId": "6acf9784a707d9d7f1dc5ec4",
+      "hash": "b57295f978cb93a280253b2571e1139b4d03631cc2ce9463fbd3a4dd77a7501c",
+      "ts": "2026-10-14T00:00:49.620000"
+    },
+    "blr-camera-0189": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc606d",
+      "hash": "d464cb6318ced647d9153ffd66adb9877d96866466338dc68a25252ae1351879",
+      "ts": "2026-10-14T00:00:49.832000"
+    },
+    "blr-camera-0193": {
+      "chainSeq": 221,
+      "eventCount": 221,
+      "eventId": "6acf9784a707d9d7f1dc5f28",
+      "hash": "1a87a8f633f2a9061c1a9c2d8350ff412118149fbc95925e8fcd1b371e2b890d",
+      "ts": "2026-10-14T00:00:49.670000"
+    },
+    "blr-camera-0197": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc605b",
+      "hash": "a2444d358ee6d54589690b9858ceaa72375b4126d78bc1e43e5f61162c4d276c",
+      "ts": "2026-10-14T00:00:49.823000"
+    },
+    "blr-camera-0201": {
+      "chainSeq": 226,
+      "eventCount": 226,
+      "eventId": "6acf9784a707d9d7f1dc600f",
+      "hash": "7e83c80d2c03aa3fd64521230a38b9c26ff5b9420060e233f2f705d4fc6737bc",
+      "ts": "2026-10-14T00:00:49.785000"
+    },
+    "blr-camera-0205": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5d47",
+      "hash": "f1e8b2ae5ca871b32b05a0669e020f750728b4354631e24147c320df95430287",
+      "ts": "2026-10-14T00:00:49.429000"
+    },
+    "blr-camera-0209": {
+      "chainSeq": 220,
+      "eventCount": 220,
+      "eventId": "6acf9784a707d9d7f1dc60aa",
+      "hash": "9f6d112a7086707ec742fc15ac0603887d03797249ed4b22b212b60300ea92cf",
+      "ts": "2026-10-14T00:00:49.863000"
+    },
+    "blr-camera-0213": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6059",
+      "hash": "a93085a4b141bf980bdc320c9aed86e17430935e7191de561611ec4eecef47a4",
+      "ts": "2026-10-14T00:00:49.822000"
+    },
+    "blr-camera-0217": {
+      "chainSeq": 183,
+      "eventCount": 183,
+      "eventId": "6acf9784a707d9d7f1dc6027",
+      "hash": "9bef9b4e355aadaf14def03b14fe5de5095162b2a479b1f5102a8683b32f6f68",
+      "ts": "2026-10-14T00:00:49.797000"
+    },
+    "blr-camera-0221": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc611f",
+      "hash": "f33464055a9bc4463c0fff2c919d5d7fb027b7073abc1e127a620799281111fd",
+      "ts": "2026-10-14T00:00:49.921000"
+    },
+    "blr-camera-0225": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc5d8e",
+      "hash": "72255c86901e3d4cc1aeeb9d2e60cd815aa575bdaed1759af1a10545cd5635f8",
+      "ts": "2026-10-14T00:00:49.465000"
+    },
+    "blr-camera-0229": {
+      "chainSeq": 181,
+      "eventCount": 181,
+      "eventId": "6acf9784a707d9d7f1dc6007",
+      "hash": "453085c148e660fe093235ade0af3311521b4def75079bcbf6ed39fd3569bf83",
+      "ts": "2026-10-14T00:00:49.781000"
+    },
+    "blr-camera-0233": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc60db",
+      "hash": "127ffcc7f9e865a4a2660a6c92d1496cf6f46a882263ffa0fdfc816782b9a046",
+      "ts": "2026-10-14T00:00:49.887000"
+    },
+    "blr-camera-0237": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc5e7e",
+      "hash": "e522f79b4e09500d3c1da5e69951efba7202be845defab028018838372ced612",
+      "ts": "2026-10-14T00:00:49.585000"
+    },
+    "blr-camera-0241": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc617f",
+      "hash": "2ea85796bb47c83b704e130853023f0a25165be190613abbb33a8f9232de8528",
+      "ts": "2026-10-14T00:00:49.969000"
+    },
+    "blr-camera-0245": {
+      "chainSeq": 229,
+      "eventCount": 229,
+      "eventId": "6acf9784a707d9d7f1dc6044",
+      "hash": "c015852d120d64034a99c89889d5d8f2a2d516a49f7cd9dc01d713a60e6a9b12",
+      "ts": "2026-10-14T00:00:49.812000"
+    },
+    "blr-camera-0249": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc5908",
+      "hash": "509376ee83247cc0640c10b0d825bc66f1e20a280333cc1b1fba6c80cc8a05b4",
+      "ts": "2026-10-14T00:00:48.886000"
+    },
+    "blr-camera-0253": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc61b0",
+      "hash": "8de8f240ee037fa34ff88b5b8d6dad64ce7fee91891c72a23cf27b962ebbe674",
+      "ts": "2026-10-14T00:00:49.994000"
+    },
+    "blr-camera-0257": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc5f5e",
+      "hash": "c5813201fc1a4d152fcac788bd34adedb991ae93cf97f4c52ad362e633a0fa24",
+      "ts": "2026-10-14T00:00:49.697000"
+    },
+    "blr-camera-0261": {
+      "chainSeq": 182,
+      "eventCount": 182,
+      "eventId": "6acf9784a707d9d7f1dc5f92",
+      "hash": "b9a1f4e938cb6a4e4207b4d914bf485c10590a3d004615b29918b56b0b35ff99",
+      "ts": "2026-10-14T00:00:49.723000"
+    },
+    "blr-camera-0265": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5f55",
+      "hash": "e9228ebf69704f13d528775170fd7eb359202a0ee953237971e187b31f2500a5",
+      "ts": "2026-10-14T00:00:49.692000"
+    },
+    "blr-camera-0269": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc5fac",
+      "hash": "ec1c8347c1cfe35c5d3001766560f161abc8715a43dd59318da481a601f05e8b",
+      "ts": "2026-10-14T00:00:49.736000"
+    },
+    "blr-camera-0273": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc60e5",
+      "hash": "a5985f50b160f94421af05463055256f9e12e837cb706142a538be0757a3c6cf",
+      "ts": "2026-10-14T00:00:49.892000"
+    },
+    "blr-camera-0277": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc5f88",
+      "hash": "3a19b02253b00da4276967736e83770510c704b07c068023a872041854590e6c",
+      "ts": "2026-10-14T00:00:49.718000"
+    },
+    "blr-camera-0281": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc5ec0",
+      "hash": "b4ed92586f22ea9a7eb814215902874d4852ef6da5cf5afecc18915dbc88de4e",
+      "ts": "2026-10-14T00:00:49.618000"
+    },
+    "blr-camera-0285": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc6168",
+      "hash": "a72897828ad08c049b0791cfd4bb1dab3b089d3c828efd5add98177cbfc140d2",
+      "ts": "2026-10-14T00:00:49.958000"
+    },
+    "blr-camera-0289": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc5e9a",
+      "hash": "c5d452ac0a89e4948fc9b939d6a9a1a4b8e6bf9207ad67666c8580b8339c2ac7",
+      "ts": "2026-10-14T00:00:49.599000"
+    },
+    "blr-camera-0293": {
+      "chainSeq": 170,
+      "eventCount": 170,
+      "eventId": "6acf9784a707d9d7f1dc610f",
+      "hash": "9ab5536259912637d8eda45fdf097004fe15caf737da27df69c76d5550b3e6ea",
+      "ts": "2026-10-14T00:00:49.913000"
+    },
+    "blr-camera-0297": {
+      "chainSeq": 181,
+      "eventCount": 181,
+      "eventId": "6acf9784a707d9d7f1dc5f74",
+      "hash": "a3f74e24a371e2bfe2833ac2207eea5fad5f848138d173d0a2f44abef5f7cd8e",
+      "ts": "2026-10-14T00:00:49.708000"
+    },
+    "blr-camera-0301": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc5ec7",
+      "hash": "691a300777a3ce7936c043168d98f2b9aca6e042613555ce122efdd1fcfe786a",
+      "ts": "2026-10-14T00:00:49.621000"
+    },
+    "blr-camera-0305": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc60a3",
+      "hash": "3e6c9be462fc3fb98fdd56e7d852e1cbddfb39115362a84e9d88f37b9d2ed16c",
+      "ts": "2026-10-14T00:00:49.859000"
+    },
+    "blr-camera-0309": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5d9e",
+      "hash": "5b98fe28f596319bf8c96bd4160b52f2bd6f691d49164bffc838871772a30ce1",
+      "ts": "2026-10-14T00:00:49.473000"
+    },
+    "blr-camera-0313": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc610a",
+      "hash": "242f4fc5a1d1b74ea351df940858466c7039dd22e19ff654bf77fb84c54a2c98",
+      "ts": "2026-10-14T00:00:49.911000"
+    },
+    "blr-camera-0317": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5a72",
+      "hash": "a73ea31dc40eb1fd6b9730614ea172a570daf61118e5169fb283ede9e1339e54",
+      "ts": "2026-10-14T00:00:49.067000"
+    },
+    "blr-camera-0321": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc6098",
+      "hash": "084b8959d7976badcf6305d9a7a8f9487b6e45580ed81fb041d955aa044508b9",
+      "ts": "2026-10-14T00:00:49.854000"
+    },
+    "blr-camera-0325": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc5fd0",
+      "hash": "50891a82499479fceeff09331448ebe78ce53db1869a78529b14e5e1d0547aef",
+      "ts": "2026-10-14T00:00:49.754000"
+    },
+    "blr-camera-0329": {
+      "chainSeq": 179,
+      "eventCount": 179,
+      "eventId": "6acf9784a707d9d7f1dc5fb1",
+      "hash": "c08fbde425dae7c5eabe42d00a1c939d3072597de50c36c4a242375f2bd0c3c8",
+      "ts": "2026-10-14T00:00:49.738000"
+    },
+    "blr-camera-0333": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc5f04",
+      "hash": "62d34aa19fb52556a18e07b6323b6bf7be48cc229a228547171d113d50d58b89",
+      "ts": "2026-10-14T00:00:49.652000"
+    },
+    "blr-camera-0337": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc606a",
+      "hash": "d7878ca5b36a67ef6237fe57933b8a441de06ea209d9bf674293272b02c22e42",
+      "ts": "2026-10-14T00:00:49.831000"
+    },
+    "blr-camera-0341": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc61ba",
+      "hash": "30b4362709aed7d8efbe8568dad6287f988d53afaebc711e18d43a212eea7416",
+      "ts": "2026-10-14T00:00:49.999000"
+    },
+    "blr-camera-0345": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc58a8",
+      "hash": "da4e9479a4dbf894f458c7dcc83321a969d8cfb647dba86d030d01be31ae2939",
+      "ts": "2026-10-14T00:00:48.838000"
+    },
+    "blr-camera-0349": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc6003",
+      "hash": "f107037b7f3c93e559efbd83f83fc9af392900a89a835438318cf08109b7a42f",
+      "ts": "2026-10-14T00:00:49.779000"
+    },
+    "blr-camera-0353": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5e98",
+      "hash": "21ab57d16751ceae582f5c6cc21a892c3b3fcaa14faf94bad2a02ffa19341092",
+      "ts": "2026-10-14T00:00:49.598000"
+    },
+    "blr-camera-0357": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc611c",
+      "hash": "7a203d8bebe20d5bc3f4af3d5c888dd11501c4b66032f0c0cd1f9e6f4b999ba4",
+      "ts": "2026-10-14T00:00:49.920000"
+    },
+    "blr-camera-0361": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc602e",
+      "hash": "ac40502a78c274188e6c0fe21158c08c2c7bbf14cebdc33fb3e8dc26e3bb1aeb",
+      "ts": "2026-10-14T00:00:49.801000"
+    },
+    "blr-camera-0365": {
+      "chainSeq": 172,
+      "eventCount": 172,
+      "eventId": "6acf9784a707d9d7f1dc5e60",
+      "hash": "e5f59bba57f10ec841dd6fbf48e62a7ed150d2ca29bbc3132bcb4270e0b9eaa6",
+      "ts": "2026-10-14T00:00:49.570000"
+    },
+    "blr-camera-0369": {
+      "chainSeq": 177,
+      "eventCount": 177,
+      "eventId": "6acf9784a707d9d7f1dc61a3",
+      "hash": "7aff4c78ae41b323368e73424c566fade0cca375ac7c959710b3c968ccd177bc",
+      "ts": "2026-10-14T00:00:49.987000"
+    },
+    "blr-camera-0373": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc5f10",
+      "hash": "9b285fecd7d6989f39d88f7330add76b2b6e1b35e3eceb57e2a2a88645566ca0",
+      "ts": "2026-10-14T00:00:49.658000"
+    },
+    "blr-camera-0377": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc6015",
+      "hash": "b0836aaba5e0a5a564b4e952b39d40beff86c0b5b64079e932b04840c823baae",
+      "ts": "2026-10-14T00:00:49.788000"
+    },
+    "blr-camera-0381": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc6063",
+      "hash": "3f8f4cc12b9616fcc78b10f89d7229064a93dcc821f1d56304b9d0d7825c1bf0",
+      "ts": "2026-10-14T00:00:49.827000"
+    },
+    "blr-camera-0385": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc6120",
+      "hash": "bf016722b03811e4ccf520792a7a00a74beaa08780fb10432e0d22e3ee889860",
+      "ts": "2026-10-14T00:00:49.922000"
+    },
+    "blr-camera-0389": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc5ed2",
+      "hash": "0f3582cac680ffaceb949c7607dd8f50da6daf1e6212e47af3fb0236e5a7feb0",
+      "ts": "2026-10-14T00:00:49.627000"
+    },
+    "blr-camera-0393": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc619e",
+      "hash": "a0efbd056f778dc5700377f2ba37db32ed0b9c5275d3e2b3b3e755f78e3067e0",
+      "ts": "2026-10-14T00:00:49.985000"
+    },
+    "blr-camera-0397": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc5f6b",
+      "hash": "7a7d920043a923ef76eca71bc9adda35a120dab1fc3624ce7c7d27638cb1de24",
+      "ts": "2026-10-14T00:00:49.703000"
+    },
+    "blr-camera-0401": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5ed7",
+      "hash": "5c2dd4abac79439bfd4b69e9c2f0114273d50b609fcb4790794368050969ae2d",
+      "ts": "2026-10-14T00:00:49.629000"
+    },
+    "blr-camera-0405": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc5f16",
+      "hash": "874a7092a6b4bbc571b43ae28d0a84a1951f1a31468a0700e06c1dcc8b666b16",
+      "ts": "2026-10-14T00:00:49.661000"
+    },
+    "blr-camera-0409": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc60a7",
+      "hash": "aeac7d58b8b26690f3b4945d3cb447b857e66f479fbd4711d8d5baa9e8daf248",
+      "ts": "2026-10-14T00:00:49.861000"
+    },
+    "blr-camera-0413": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc60fa",
+      "hash": "f78fbd3a8192d03c391cfd264d443eff244aeaa3322f7d7f3026673c7d64ada1",
+      "ts": "2026-10-14T00:00:49.903000"
+    },
+    "blr-camera-0417": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc61ae",
+      "hash": "22e267e92db1fd489c72db154d66c42bc29b1548aeb86b90f11accdf7f28000b",
+      "ts": "2026-10-14T00:00:49.993000"
+    },
+    "blr-camera-0421": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc5ed8",
+      "hash": "95f14451ff8f58afce6604dcb2c16977390698d8ecbf73c032d6e18a34398ac7",
+      "ts": "2026-10-14T00:00:49.630000"
+    },
+    "blr-camera-0425": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc619b",
+      "hash": "ae4391141bae1765f2f4d1948f0eae5b81076a165d74817cb8fe2ef7053c353a",
+      "ts": "2026-10-14T00:00:49.983000"
+    },
+    "blr-camera-0429": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc60e9",
+      "hash": "d64ec09c588657a342b1edcd30c73082fbeccf9f13c4a582eef0efc8a37b4683",
+      "ts": "2026-10-14T00:00:49.894000"
+    },
+    "blr-camera-0433": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc5b30",
+      "hash": "95ba1f1b1927bc43440da1c561fa95f9a6cb031bc15034c09966f14d54f19ac3",
+      "ts": "2026-10-14T00:00:49.162000"
+    },
+    "blr-camera-0437": {
+      "chainSeq": 216,
+      "eventCount": 216,
+      "eventId": "6acf9784a707d9d7f1dc6142",
+      "hash": "9016ebf45a60ed99893d669adf2df205583cf3bc99c04c8c00740f26258ab6f1",
+      "ts": "2026-10-14T00:00:49.939000"
+    },
+    "blr-camera-0441": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc6118",
+      "hash": "dc864882a27a5ab9dcc89ab1461bea9a98ff7c3ac4b8f30f02768e3aa5b98179",
+      "ts": "2026-10-14T00:00:49.918000"
+    },
+    "blr-camera-0445": {
+      "chainSeq": 217,
+      "eventCount": 217,
+      "eventId": "6acf9784a707d9d7f1dc5f2e",
+      "hash": "1085f3aeb4e93131ae5bd9305c074f28c6228d8312063db47a5c0b3c6bac404b",
+      "ts": "2026-10-14T00:00:49.673000"
+    },
+    "blr-camera-0449": {
+      "chainSeq": 183,
+      "eventCount": 183,
+      "eventId": "6acf9784a707d9d7f1dc60e6",
+      "hash": "5da63d6616b05e18afbeab4925d5d6e57066b794aa8363ce6c6e2e98a1ed472d",
+      "ts": "2026-10-14T00:00:49.893000"
+    },
+    "blr-camera-0453": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5d4a",
+      "hash": "22b3a3d4c03b974373468635941e424c4e338983ce5df3aef8b46e1938f39f0c",
+      "ts": "2026-10-14T00:00:49.431000"
+    },
+    "blr-camera-0457": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc610d",
+      "hash": "27a037a170dd91e687ad036424ceac6f8746b59eba20862e3fc1ddaf41810729",
+      "ts": "2026-10-14T00:00:49.912000"
+    },
+    "blr-camera-0461": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc601e",
+      "hash": "cd509563a703120b67b6ca4c8c0b9ddeaa96e8d28be46c7e0c2dbc5c84000ad9",
+      "ts": "2026-10-14T00:00:49.793000"
+    },
+    "blr-camera-0465": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc60c8",
+      "hash": "d0f8bb434adafdad1994741c6f028df734127a5cd7153d0c8335960499ce82da",
+      "ts": "2026-10-14T00:00:49.878000"
+    },
+    "blr-camera-0469": {
+      "chainSeq": 175,
+      "eventCount": 175,
+      "eventId": "6acf9784a707d9d7f1dc610c",
+      "hash": "aa3a421849b52a26d53e710a5a64cc90ecc6794530ce0ae47f982fc36721ea35",
+      "ts": "2026-10-14T00:00:49.912000"
+    },
+    "blr-camera-0473": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc5f80",
+      "hash": "09b6b7eea47047f73ff284e83748929f2d7055db986a9220b6f618d13c198042",
+      "ts": "2026-10-14T00:00:49.714000"
+    },
+    "blr-camera-0477": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc6066",
+      "hash": "8a4da35f4d091df277264164674c46635165facbcebff5e6adcfb25c2457c648",
+      "ts": "2026-10-14T00:00:49.829000"
+    },
+    "blr-camera-0481": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc5d5a",
+      "hash": "51fb10e89b9d42f8d7b6518d5dbf122dc0ef5d0431c815a4df77bac65a9ef540",
+      "ts": "2026-10-14T00:00:49.439000"
+    },
+    "blr-camera-0485": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc60be",
+      "hash": "1ebc874dab327b35e5b6d08ca022476077505140dec259b4461b843be2b28bca",
+      "ts": "2026-10-14T00:00:49.873000"
+    },
+    "blr-camera-0489": {
+      "chainSeq": 222,
+      "eventCount": 222,
+      "eventId": "6acf9784a707d9d7f1dc60ee",
+      "hash": "a35463f82d5b7d896a2e007b334f06bc217ca98996a9943b7b34402c8fe52921",
+      "ts": "2026-10-14T00:00:49.897000"
+    },
+    "blr-camera-0493": {
+      "chainSeq": 217,
+      "eventCount": 217,
+      "eventId": "6acf9784a707d9d7f1dc6199",
+      "hash": "4052803ef5d4be810b5e027ff80ca67ecd8e2d96fd08aed4f4da7d95ee679df7",
+      "ts": "2026-10-14T00:00:49.982000"
+    },
+    "blr-camera-0497": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc5f36",
+      "hash": "41039da1b0c028621ce834a5dbf07afcfa930ed920ad8c0d6c2fd4a4bc0338b5",
+      "ts": "2026-10-14T00:00:49.677000"
+    },
+    "blr-energy-meter-0002": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc5f15",
+      "hash": "df8dbfa05b2fe27ec4678bbda1c771a8131f67536ace31f2c8294379d2823030",
+      "ts": "2026-10-14T00:00:49.660000"
+    },
+    "blr-energy-meter-0006": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc61b9",
+      "hash": "8505264cb7225fa2b504ed35c12ceabb8f8eac4f3be82a2af8772558b5753265",
+      "ts": "2026-10-14T00:00:49.998000"
+    },
+    "blr-energy-meter-0010": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc5ffe",
+      "hash": "a98077e21f2018ad97218b130b0f4f1da4f215bdad9c868ad1c8ac6949d45adc",
+      "ts": "2026-10-14T00:00:49.777000"
+    },
+    "blr-energy-meter-0014": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc57f6",
+      "hash": "c7827835b352a02fad1c19a9e28277490ef41cfb9e5d53620a1f7adfe8cf4974",
+      "ts": "2026-10-14T00:00:48.749000"
+    },
+    "blr-energy-meter-0018": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc60a5",
+      "hash": "3c325f9296c46065e4f1a147ec3082e86e59c9de0d4a8d3db128ef30985e29b2",
+      "ts": "2026-10-14T00:00:49.860000"
+    },
+    "blr-energy-meter-0022": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc60c1",
+      "hash": "c9d2d4ec6a087657054990f3021edab4f6b6ea717ce3c4432c5a200a87c3dd76",
+      "ts": "2026-10-14T00:00:49.874000"
+    },
+    "blr-energy-meter-0026": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc618c",
+      "hash": "d0608362de820a8692bd36b5840e5f083c9d8285115d2e434576f4bd34904e84",
+      "ts": "2026-10-14T00:00:49.976000"
+    },
+    "blr-energy-meter-0030": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc61a9",
+      "hash": "d9e25d4a2053ef47e421dba1ea7063ab5d03f0d14d855266d1f2491189c16196",
+      "ts": "2026-10-14T00:00:49.990000"
+    },
+    "blr-energy-meter-0034": {
+      "chainSeq": 154,
+      "eventCount": 154,
+      "eventId": "6acf9784a707d9d7f1dc6037",
+      "hash": "9f668e81a9046d4bcd411ccb6717bbe93cc422988386c1f573b72af68645a763",
+      "ts": "2026-10-14T00:00:49.805000"
+    },
+    "blr-energy-meter-0038": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc5c99",
+      "hash": "a4fa37ff51646d3de8a49a5ab1419f80046d23163e367c13c2dad87a8c204ad2",
+      "ts": "2026-10-14T00:00:49.342000"
+    },
+    "blr-energy-meter-0042": {
+      "chainSeq": 224,
+      "eventCount": 224,
+      "eventId": "6acf9784a707d9d7f1dc6197",
+      "hash": "b820768e4bbe70cd9de0bd43232a325bbf075479da7238fecf4328dbef9b21ad",
+      "ts": "2026-10-14T00:00:49.981000"
+    },
+    "blr-energy-meter-0046": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc6038",
+      "hash": "8087db8cbbec770ea991a372d109be3ef640c20e6f26917d9443e889e255be35",
+      "ts": "2026-10-14T00:00:49.806000"
+    },
+    "blr-energy-meter-0050": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc6041",
+      "hash": "d98497e2083986e5dd402da06abd16d830db6f533b7633d52d80d0965d8fdd9f",
+      "ts": "2026-10-14T00:00:49.810000"
+    },
+    "blr-energy-meter-0054": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc5cf8",
+      "hash": "457068e86f659bcec11ef1d133894412069e0c1ca2675c9aebb1b2f8c0e056a9",
+      "ts": "2026-10-14T00:00:49.390000"
+    },
+    "blr-energy-meter-0058": {
+      "chainSeq": 225,
+      "eventCount": 225,
+      "eventId": "6acf9784a707d9d7f1dc5f4b",
+      "hash": "eb82b8c65b514c8dcde543dfab16f096f6908cc0395bfd493686e73f83bb5eac",
+      "ts": "2026-10-14T00:00:49.687000"
+    },
+    "blr-energy-meter-0062": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc6139",
+      "hash": "34ee1418c894d82e111a64a7dc9a5247ac982cb6b6263ce526fd1a152cc5be18",
+      "ts": "2026-10-14T00:00:49.934000"
+    },
+    "blr-energy-meter-0066": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc5c3c",
+      "hash": "6a2109149636637bb49fc512e63d1ebdb43c88e5d87d7ad597d3d95313f13aad",
+      "ts": "2026-10-14T00:00:49.296000"
+    },
+    "blr-energy-meter-0070": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc6189",
+      "hash": "e2adee6932fc71f626a727f0356cebdd691b15cfdeb050900f6d8c4610833be3",
+      "ts": "2026-10-14T00:00:49.974000"
+    },
+    "blr-energy-meter-0074": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc5c6a",
+      "hash": "7b1e586451fd0086d4c97abe2dfc600ed92cd5ec71a4610192d1cfa965331352",
+      "ts": "2026-10-14T00:00:49.319000"
+    },
+    "blr-energy-meter-0078": {
+      "chainSeq": 224,
+      "eventCount": 224,
+      "eventId": "6acf9784a707d9d7f1dc617e",
+      "hash": "35e2940588ea6629d080f5e4364bbdb9dddf37e22738a7e1d3199ecd2bf519a7",
+      "ts": "2026-10-14T00:00:49.969000"
+    },
+    "blr-energy-meter-0082": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc607d",
+      "hash": "333a5fbb52ce57bf1927d61e4f37fb850d725b45f7c3a909500272413aa78702",
+      "ts": "2026-10-14T00:00:49.840000"
+    },
+    "blr-energy-meter-0086": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc53b6",
+      "hash": "26e73e3fccae480a1a3e491e8def55114b6085aec99da8a4bdb327ff8a584a5e",
+      "ts": "2026-10-14T00:00:48.205000"
+    },
+    "blr-energy-meter-0090": {
+      "chainSeq": 231,
+      "eventCount": 231,
+      "eventId": "6acf9784a707d9d7f1dc613f",
+      "hash": "353564cdf08d02103419580d6274109cb39273974ed2d52c6cfa758d25bb1f3c",
+      "ts": "2026-10-14T00:00:49.937000"
+    },
+    "blr-energy-meter-0094": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc601b",
+      "hash": "5f0c9659ddbe7f59303184bf50a1437e07de9014ac4acb1b2226b333dd58795e",
+      "ts": "2026-10-14T00:00:49.791000"
+    },
+    "blr-energy-meter-0098": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc5eba",
+      "hash": "ea10178a1e82574957c9903a170ec134fab992600cb3322acd7d8fa4d4a308cc",
+      "ts": "2026-10-14T00:00:49.615000"
+    },
+    "blr-energy-meter-0102": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc60fb",
+      "hash": "03ede0d61cbed5eeed3690a898d56e887fea7c7775e14208bffa4ca4c31af8c2",
+      "ts": "2026-10-14T00:00:49.903000"
+    },
+    "blr-energy-meter-0106": {
+      "chainSeq": 216,
+      "eventCount": 216,
+      "eventId": "6acf9784a707d9d7f1dc5b55",
+      "hash": "2f0b83bfd6ee7958d13d1c7a36573b5469c414a4cec6f3d9272fd97a1e20c483",
+      "ts": "2026-10-14T00:00:49.180000"
+    },
+    "blr-energy-meter-0110": {
+      "chainSeq": 183,
+      "eventCount": 183,
+      "eventId": "6acf9784a707d9d7f1dc5fcf",
+      "hash": "5ae60554754023ba568be166a0571c791cd9e68cf237749e0a6e2e309baf14a1",
+      "ts": "2026-10-14T00:00:49.753000"
+    },
+    "blr-energy-meter-0114": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5588",
+      "hash": "06f8669a4331e036a2fcb7344d12e1f84320277fe14f3754dde807d205885251",
+      "ts": "2026-10-14T00:00:48.438000"
+    },
+    "blr-energy-meter-0118": {
+      "chainSeq": 218,
+      "eventCount": 218,
+      "eventId": "6acf9784a707d9d7f1dc619a",
+      "hash": "cf8ae06177f0125d588c626e9a425d06778277127b2bec342bf316e2e8f49cbf",
+      "ts": "2026-10-14T00:00:49.983000"
+    },
+    "blr-energy-meter-0122": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc6135",
+      "hash": "e996773a084f9725041be2e893b0be747d3ebffbe075e1d077581ef622486eb3",
+      "ts": "2026-10-14T00:00:49.932000"
+    },
+    "blr-energy-meter-0126": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc60b1",
+      "hash": "0979f89be050550c925f8f3ba122a50133a6656d8ec049522e70e18017b3a751",
+      "ts": "2026-10-14T00:00:49.866000"
+    },
+    "blr-energy-meter-0130": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc60ce",
+      "hash": "a7915a0583d8f8d9014b24a2d8b5778d4af44ee95031ad22bc32ce3c61339aee",
+      "ts": "2026-10-14T00:00:49.881000"
+    },
+    "blr-energy-meter-0134": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc6020",
+      "hash": "f7c2792748e124665844b4672169d487589d21147b05033bc3e88fae6ce81015",
+      "ts": "2026-10-14T00:00:49.794000"
+    },
+    "blr-energy-meter-0138": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc6099",
+      "hash": "42db35cd45fc320ddb7b81951221590bb3b14df9f393b35724077afa1fc7228d",
+      "ts": "2026-10-14T00:00:49.854000"
+    },
+    "blr-energy-meter-0142": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc6122",
+      "hash": "f1a61e682566fdfeee6ffe218d009bfcc6a75c0c9725ced66bfdeb77344f6540",
+      "ts": "2026-10-14T00:00:49.923000"
+    },
+    "blr-energy-meter-0146": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc6090",
+      "hash": "012bc2ae4e38d1eda889c5515c2cf8bed65020f2f3811ccc4a8bdc539a1b142b",
+      "ts": "2026-10-14T00:00:49.850000"
+    },
+    "blr-energy-meter-0150": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5d65",
+      "hash": "877753b1bb937c664ce4723f3f6fa33e291bf39acafb30d84509a99d9d88c2b1",
+      "ts": "2026-10-14T00:00:49.444000"
+    },
+    "blr-energy-meter-0154": {
+      "chainSeq": 224,
+      "eventCount": 224,
+      "eventId": "6acf9784a707d9d7f1dc6074",
+      "hash": "db32db8787ac7b85755b1dea8059849021dddb3f8ec453cab0b8825178267927",
+      "ts": "2026-10-14T00:00:49.836000"
+    },
+    "blr-energy-meter-0158": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc61b5",
+      "hash": "f6c7c314be1b9515a8666ead10667e50bfa7ea75bbb7f3a72e32ed2f3b89de24",
+      "ts": "2026-10-14T00:00:49.996000"
+    },
+    "blr-energy-meter-0162": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5ff3",
+      "hash": "63bc834f8920bee320a7861dae6cf9d7b116d39280a93a5d2e5d27a7ab4ee6fa",
+      "ts": "2026-10-14T00:00:49.771000"
+    },
+    "blr-energy-meter-0166": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc5e39",
+      "hash": "12f4a0ab40fdc0b8f1b2dffd293851e9bdc15c52758288cbed179dd8a3d10d59",
+      "ts": "2026-10-14T00:00:49.550000"
+    },
+    "blr-energy-meter-0170": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc5f1e",
+      "hash": "f26ca5768e99af54f5e40a4564f8ca276bfa30f5d51c85d8f59712854dc0dc57",
+      "ts": "2026-10-14T00:00:49.665000"
+    },
+    "blr-energy-meter-0174": {
+      "chainSeq": 230,
+      "eventCount": 230,
+      "eventId": "6acf9784a707d9d7f1dc6065",
+      "hash": "2cfe03f4fc89c326f05eb10f9e35e03172f3f4c762c137e8e6c1d0ea9d09b485",
+      "ts": "2026-10-14T00:00:49.828000"
+    },
+    "blr-energy-meter-0178": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc5d0f",
+      "hash": "9cc7e9af022fee268cab155413af66100eaffbab75e919000e49c983d1187f00",
+      "ts": "2026-10-14T00:00:49.401000"
+    },
+    "blr-energy-meter-0182": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc5e20",
+      "hash": "9e77d20956820d66a87eda60f476ce64c8284d6516e149a4834d9ea952153a35",
+      "ts": "2026-10-14T00:00:49.538000"
+    },
+    "blr-energy-meter-0186": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5fcb",
+      "hash": "d814eb654df6e5ff324be32d6b61735092b4f78332192ddc6ad72ae4c4a70e71",
+      "ts": "2026-10-14T00:00:49.751000"
+    },
+    "blr-energy-meter-0190": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc5fd5",
+      "hash": "4e5d0b8a6a73c6d96aabe4c8709a10a28681dcd03ce9e2405e5918ca6f5b5b23",
+      "ts": "2026-10-14T00:00:49.756000"
+    },
+    "blr-energy-meter-0194": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc5f41",
+      "hash": "454778f126bcd3d4e300a9c620a8e397e7429737b5d4bf4885792ff373659025",
+      "ts": "2026-10-14T00:00:49.682000"
+    },
+    "blr-energy-meter-0198": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5d66",
+      "hash": "06964522df5db03bd0743086aeb6379ec58a90c3d54feacdc829a2471c4f1aac",
+      "ts": "2026-10-14T00:00:49.445000"
+    },
+    "blr-energy-meter-0202": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc6010",
+      "hash": "aecad2154f934c254ae87e5bc271b9684feb0fb6d6e2dddbf5cca7613219b406",
+      "ts": "2026-10-14T00:00:49.786000"
+    },
+    "blr-energy-meter-0206": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc60ef",
+      "hash": "7863884e9d0cdc5c5d9cd0e6c65f89cbc939200a2eba4cc7962a31e6f2a22040",
+      "ts": "2026-10-14T00:00:49.897000"
+    },
+    "blr-energy-meter-0210": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc5dd3",
+      "hash": "1f7877a3bd0c408b888e73651d832df25b5f6081e631d80a77f923481f47397f",
+      "ts": "2026-10-14T00:00:49.499000"
+    },
+    "blr-energy-meter-0214": {
+      "chainSeq": 177,
+      "eventCount": 177,
+      "eventId": "6acf9784a707d9d7f1dc604e",
+      "hash": "60bfb40ce540332357c1476a8bcc0afb5f80c79222367d40a5d98a3cafe69eb5",
+      "ts": "2026-10-14T00:00:49.817000"
+    },
+    "blr-energy-meter-0218": {
+      "chainSeq": 172,
+      "eventCount": 172,
+      "eventId": "6acf9784a707d9d7f1dc617b",
+      "hash": "73da5dcf871c69b98a470537b66cdaff5e699e058e0519569cef7a0990e47812",
+      "ts": "2026-10-14T00:00:49.967000"
+    },
+    "blr-energy-meter-0222": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc617c",
+      "hash": "6c1c8ac5c05f894f570043b32befadf67c43f83d4fc77027ceb5d794b936a02a",
+      "ts": "2026-10-14T00:00:49.968000"
+    },
+    "blr-energy-meter-0226": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5f43",
+      "hash": "fe3aa974afc9f907ab827202c1d4e4449753d8981b43457c55abc107236f2236",
+      "ts": "2026-10-14T00:00:49.683000"
+    },
+    "blr-energy-meter-0230": {
+      "chainSeq": 217,
+      "eventCount": 217,
+      "eventId": "6acf9784a707d9d7f1dc5f8f",
+      "hash": "5c860c5ac8139509dcab617c89c5e60e54ce11a2e32259942efd621949cde1eb",
+      "ts": "2026-10-14T00:00:49.721000"
+    },
+    "blr-energy-meter-0234": {
+      "chainSeq": 178,
+      "eventCount": 178,
+      "eventId": "6acf9784a707d9d7f1dc59ba",
+      "hash": "9581407630875402242067ca5b2532ba9be935dd9477f925852de2117b6c3c78",
+      "ts": "2026-10-14T00:00:48.975000"
+    },
+    "blr-energy-meter-0238": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc5ce1",
+      "hash": "7e340632ec0b9ac529afe5554810634c97aba9c4e27c5f522e2d02586d3dfe1d",
+      "ts": "2026-10-14T00:00:49.378000"
+    },
+    "blr-energy-meter-0242": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5cfc",
+      "hash": "ba38537c1cfd17d96b847e7491d5c81f8285df57fd56febb8fe1888dee343e0c",
+      "ts": "2026-10-14T00:00:49.392000"
+    },
+    "blr-energy-meter-0246": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc6097",
+      "hash": "c06aaf5d4bee40ad0ed0a511b1cd7df1392186649909bce5af23a807c4fc91eb",
+      "ts": "2026-10-14T00:00:49.853000"
+    },
+    "blr-energy-meter-0250": {
+      "chainSeq": 230,
+      "eventCount": 230,
+      "eventId": "6acf9784a707d9d7f1dc61a0",
+      "hash": "738db87aae784bd80c6bccc2f211928a1b4d790890ebe0e1012d0eda5b673e96",
+      "ts": "2026-10-14T00:00:49.986000"
+    },
+    "blr-energy-meter-0254": {
+      "chainSeq": 217,
+      "eventCount": 217,
+      "eventId": "6acf9784a707d9d7f1dc57dd",
+      "hash": "89c3e96851e2f7c69c19e07d02a22953cb04c72cda12e64b5feb591de2dac51c",
+      "ts": "2026-10-14T00:00:48.736000"
+    },
+    "blr-energy-meter-0258": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc5e95",
+      "hash": "daac2071ccd752d5fccdec1644d827e8876bb0f633aead9fac0e5f59c6fba355",
+      "ts": "2026-10-14T00:00:49.596000"
+    },
+    "blr-energy-meter-0262": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc61a4",
+      "hash": "48b11808be900e82053465ba73c5cfdfed39c53172a9ea6876eb60e19f6478f6",
+      "ts": "2026-10-14T00:00:49.988000"
+    },
+    "blr-energy-meter-0266": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc6180",
+      "hash": "fd261a68dd16dabcb20eacc8f14debcc696af97f67d43a4c95bf72dde2f0afc7",
+      "ts": "2026-10-14T00:00:49.970000"
+    },
+    "blr-energy-meter-0270": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc6149",
+      "hash": "7dbf3aeefcc236a3dba7692d25c88ee745299e373e30496c49ff9e4be0c0af00",
+      "ts": "2026-10-14T00:00:49.942000"
+    },
+    "blr-energy-meter-0274": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc5e2d",
+      "hash": "8984f356b474433973087064f0aeff8b962c7d3d2c8feed9b93ce9fec5588601",
+      "ts": "2026-10-14T00:00:49.544000"
+    },
+    "blr-energy-meter-0278": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc61a7",
+      "hash": "59d66d3a103113e223ff9772b202fe646b3f5f0fd1dcdf3e83f0b7414255f527",
+      "ts": "2026-10-14T00:00:49.989000"
+    },
+    "blr-energy-meter-0282": {
+      "chainSeq": 218,
+      "eventCount": 218,
+      "eventId": "6acf9784a707d9d7f1dc60a6",
+      "hash": "fe96ab83bf7e622111d0d6afe93dd118612586907602519dd085fb30a8c84b7d",
+      "ts": "2026-10-14T00:00:49.861000"
+    },
+    "blr-energy-meter-0286": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc603e",
+      "hash": "5c57c2163d4d8fef3847e5d1051610d3ce4465ebd0a6834258cd363af225ec3a",
+      "ts": "2026-10-14T00:00:49.809000"
+    },
+    "blr-energy-meter-0290": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5cfb",
+      "hash": "129bb5c2191e801a64912036ddcdee73ff14b12cf546bb77491c995edef8bdf1",
+      "ts": "2026-10-14T00:00:49.391000"
+    },
+    "blr-energy-meter-0294": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc5f01",
+      "hash": "c40b4c85a71ab5dde1b9b3908bd3fdc560bd2612708b334309f3c2098b187811",
+      "ts": "2026-10-14T00:00:49.650000"
+    },
+    "blr-energy-meter-0298": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc5e73",
+      "hash": "2edf194a01f6aedf75a0a7bc2a5e56648211659e04752f275b72ee59cbfe5f9e",
+      "ts": "2026-10-14T00:00:49.579000"
+    },
+    "blr-energy-meter-0302": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc5e85",
+      "hash": "6416e9bd93555cea30af52289cc40788177996c7159b79797b66e646289a344c",
+      "ts": "2026-10-14T00:00:49.588000"
+    },
+    "blr-energy-meter-0306": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc6102",
+      "hash": "34827551d53c8fa16706ac171861d767e8862ebe150939ad73b549ce40a70717",
+      "ts": "2026-10-14T00:00:49.907000"
+    },
+    "blr-energy-meter-0310": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc619d",
+      "hash": "01815f599c8806e0bef3600632ed3cdb17cba71a359b7313827ff77831a1b2f7",
+      "ts": "2026-10-14T00:00:49.984000"
+    },
+    "blr-energy-meter-0314": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5e33",
+      "hash": "dc995b68adf72deb832a1ced6710842d5320f8d3645645466d5e2e6685939567",
+      "ts": "2026-10-14T00:00:49.547000"
+    },
+    "blr-energy-meter-0318": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc5f12",
+      "hash": "e9ff34c35f835f596f59cc1defb3144b43c9d524d90fbe8480ba253664cc7aa6",
+      "ts": "2026-10-14T00:00:49.659000"
+    },
+    "blr-energy-meter-0322": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc6060",
+      "hash": "c587867d7bb98b00727ff4de35da5621660809b7ba7bf47a7ddd1a84eb9c5cbe",
+      "ts": "2026-10-14T00:00:49.826000"
+    },
+    "blr-energy-meter-0326": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc5f1d",
+      "hash": "2266358a4ef3dfeab1670a86828100273f79346ec6390be01093f6c36e4f68d1",
+      "ts": "2026-10-14T00:00:49.664000"
+    },
+    "blr-energy-meter-0330": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc618f",
+      "hash": "d0271090599e489633c0a30ea2c672e6e2dd67262266587aa4f773fd36f8034d",
+      "ts": "2026-10-14T00:00:49.977000"
+    },
+    "blr-energy-meter-0334": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc60d3",
+      "hash": "12305c1767c40b8ec48893ad809d141fbcbbcd1a54295c64d24916728e77e3d5",
+      "ts": "2026-10-14T00:00:49.883000"
+    },
+    "blr-energy-meter-0338": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc5fe3",
+      "hash": "7ddac30bb8bc08695f3858474dd77e6ba22b9888bf5e3357bb3665811e902296",
+      "ts": "2026-10-14T00:00:49.763000"
+    },
+    "blr-energy-meter-0342": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc5f3b",
+      "hash": "9b1892a119d4b54922573afb0a78811cefedf593ba6b3e4336cc54f8641b3ae0",
+      "ts": "2026-10-14T00:00:49.679000"
+    },
+    "blr-energy-meter-0346": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc6195",
+      "hash": "78fe3f369fff619ec3dc0dbf94a67a9295939e28df71a5a349fa9bea618f1ccf",
+      "ts": "2026-10-14T00:00:49.980000"
+    },
+    "blr-energy-meter-0350": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc6184",
+      "hash": "48595fb9c9b98a7e42db4a38b3006da9651de8ace3056e1b6c72c98ba0d7051c",
+      "ts": "2026-10-14T00:00:49.972000"
+    },
+    "blr-energy-meter-0354": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc603f",
+      "hash": "61c9f9fcd755b21dbea405b0db7e31c92066ab50e8b387c80ae996e0ea18a5ec",
+      "ts": "2026-10-14T00:00:49.809000"
+    },
+    "blr-energy-meter-0358": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6091",
+      "hash": "a0380a7feb80dc49969559d02f8d6131fe3787174cba55b45c5fcfa41b4e3f90",
+      "ts": "2026-10-14T00:00:49.850000"
+    },
+    "blr-energy-meter-0362": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc614b",
+      "hash": "1b9c98a33c4744bdbf6a090aef556419b417863bcbbd31355f96b882ef641e84",
+      "ts": "2026-10-14T00:00:49.943000"
+    },
+    "blr-energy-meter-0366": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc618a",
+      "hash": "d93f9d9ec196667ce7858e9c88de9df5ce71a1c9730282e49b7bbf406cf9adf1",
+      "ts": "2026-10-14T00:00:49.975000"
+    },
+    "blr-energy-meter-0370": {
+      "chainSeq": 221,
+      "eventCount": 221,
+      "eventId": "6acf9784a707d9d7f1dc603b",
+      "hash": "7b8a284ba1613d31f910f82b6ec8330a8d5b3b71aa4ff4f01302f850df600e12",
+      "ts": "2026-10-14T00:00:49.807000"
+    },
+    "blr-energy-meter-0374": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc6107",
+      "hash": "5b3fee7aed66156628ea7106b0e86adaf2fe768d30ea0195dd2ba12554265de7",
+      "ts": "2026-10-14T00:00:49.909000"
+    },
+    "blr-energy-meter-0378": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc60b3",
+      "hash": "774fbdcdf4eb808ed6b59e96232997be937a8532961d59a850b751eebdc725a5",
+      "ts": "2026-10-14T00:00:49.867000"
+    },
+    "blr-energy-meter-0382": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5fa3",
+      "hash": "bfde44b6ae96abd55645ffc59cb537db543971273463225df2a825ed686b4c67",
+      "ts": "2026-10-14T00:00:49.731000"
+    },
+    "blr-energy-meter-0386": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc603a",
+      "hash": "7e847209582c614e909b5f7d2aa6cd6fd62bbe500cc29f9f885fd2151567df01",
+      "ts": "2026-10-14T00:00:49.807000"
+    },
+    "blr-energy-meter-0390": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5fb5",
+      "hash": "7f50bff2505d6a9c25a3627386f55df1621ea0f376583b20d8b184015f1480b5",
+      "ts": "2026-10-14T00:00:49.740000"
+    },
+    "blr-energy-meter-0394": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc6127",
+      "hash": "b108ca25d1dc3f96a9c4d2fabd9ed82ef904171a696e2518b9150d76d7dc12e8",
+      "ts": "2026-10-14T00:00:49.925000"
+    },
+    "blr-energy-meter-0398": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6110",
+      "hash": "c7e1dca4f810fb94c68642accf38f22d28cd55fba89339d85df40a867fcd830f",
+      "ts": "2026-10-14T00:00:49.914000"
+    },
+    "blr-energy-meter-0402": {
+      "chainSeq": 234,
+      "eventCount": 234,
+      "eventId": "6acf9784a707d9d7f1dc60af",
+      "hash": "e78a69b85c4e4c27e6240349871070be5245f6277bd8c9ae696aec5735381b40",
+      "ts": "2026-10-14T00:00:49.865000"
+    },
+    "blr-energy-meter-0406": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6124",
+      "hash": "5053be16e8ba5f9f545b342673b25131710c552b64c14ee446fdf5b409d18c1a",
+      "ts": "2026-10-14T00:00:49.924000"
+    },
+    "blr-energy-meter-0410": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc6053",
+      "hash": "41335d5878ad3ac3b257203dbf3c995562500cd9989ab70868230a307acbf32d",
+      "ts": "2026-10-14T00:00:49.819000"
+    },
+    "blr-energy-meter-0414": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc60d8",
+      "hash": "b601bef6b45031bc40dcc300da9bacdac744adac65cf8f2406cc3ef4b4f906b5",
+      "ts": "2026-10-14T00:00:49.886000"
+    },
+    "blr-energy-meter-0418": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc6023",
+      "hash": "94912c33bf774fd9f9883c892227a8aacda7a8f544b4c9f1c8ac18d220a14f7f",
+      "ts": "2026-10-14T00:00:49.795000"
+    },
+    "blr-energy-meter-0422": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc6064",
+      "hash": "433acd3e43aff6a2ad3c8b95b729c8dc9508f7af48ca725150768f219b5e32c0",
+      "ts": "2026-10-14T00:00:49.828000"
+    },
+    "blr-energy-meter-0426": {
+      "chainSeq": 218,
+      "eventCount": 218,
+      "eventId": "6acf9784a707d9d7f1dc6093",
+      "hash": "137db82e0b6d1b6591b099cba6518270e699d8351d32143f34f50a5a961e8e47",
+      "ts": "2026-10-14T00:00:49.851000"
+    },
+    "blr-energy-meter-0430": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc5fff",
+      "hash": "45d3b7b7366ebb03236804a358988263b33db673b6d13c27aafee78f4736693f",
+      "ts": "2026-10-14T00:00:49.777000"
+    },
+    "blr-energy-meter-0434": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc5cb7",
+      "hash": "647aea598db70f831f04f66957d78fbe3592a89e29649eeef90626654acd7267",
+      "ts": "2026-10-14T00:00:49.357000"
+    },
+    "blr-energy-meter-0438": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc60d5",
+      "hash": "f7e488631f01f8a23e07bc60968176bac2d951920a433e04e1cde6ca734b3cd0",
+      "ts": "2026-10-14T00:00:49.884000"
+    },
+    "blr-energy-meter-0442": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc607c",
+      "hash": "c478956427cb2d1e03c506e98ebecbd489676565bc18b60f1828742d3d79e77c",
+      "ts": "2026-10-14T00:00:49.840000"
+    },
+    "blr-energy-meter-0446": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc6183",
+      "hash": "3ddc0906110a0e583e9726ff4bcac06834f968b5d4feb4e24334a4b2a43b392a",
+      "ts": "2026-10-14T00:00:49.971000"
+    },
+    "blr-energy-meter-0450": {
+      "chainSeq": 180,
+      "eventCount": 180,
+      "eventId": "6acf9784a707d9d7f1dc60df",
+      "hash": "203bb362322b72ad3162a9d52da4fd3bd0b1614d03c6ae53c7fafc3848800bad",
+      "ts": "2026-10-14T00:00:49.889000"
+    },
+    "blr-energy-meter-0454": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc618e",
+      "hash": "1f2529df6731f9fdba017976ac3316b7a3e98bf177f260de47954c959b3f9e44",
+      "ts": "2026-10-14T00:00:49.977000"
+    },
+    "blr-energy-meter-0458": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc61a1",
+      "hash": "7391ab30da798ed4628b8eab44fafe38295241bed678adfd2184a625fbf89435",
+      "ts": "2026-10-14T00:00:49.986000"
+    },
+    "blr-energy-meter-0462": {
+      "chainSeq": 181,
+      "eventCount": 181,
+      "eventId": "6acf9784a707d9d7f1dc5f97",
+      "hash": "cae46df7cbeeffcf6ff3cb4c138adb6c51f588f95fe0184799ff98eb28b1b9e2",
+      "ts": "2026-10-14T00:00:49.725000"
+    },
+    "blr-energy-meter-0466": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc60fe",
+      "hash": "924fd6559ec49576b94dafd54c9906aca198ed0db13c0b3ce97842f8195897f3",
+      "ts": "2026-10-14T00:00:49.905000"
+    },
+    "blr-energy-meter-0470": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc60c9",
+      "hash": "3d65783bef4f41cbadf7551cb32204c993dd243a2fe57cf80d4e1bd9e04f6d6e",
+      "ts": "2026-10-14T00:00:49.878000"
+    },
+    "blr-energy-meter-0474": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc5ead",
+      "hash": "d46044bb8f67e17e0d95b30eb3b000f8ba225a74e01bc3955e7ef71249e7347f",
+      "ts": "2026-10-14T00:00:49.608000"
+    },
+    "blr-energy-meter-0478": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc5b14",
+      "hash": "bf03e22af5339cc26ef72cb0e0a283fc7029a23be35eb074764b9e6992765d9d",
+      "ts": "2026-10-14T00:00:49.148000"
+    },
+    "blr-energy-meter-0482": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc61aa",
+      "hash": "44829f5e53f9381941f5b4e0cd6c3b8a40e62dcb20420036b420f56355e11902",
+      "ts": "2026-10-14T00:00:49.991000"
+    },
+    "blr-energy-meter-0486": {
+      "chainSeq": 183,
+      "eventCount": 183,
+      "eventId": "6acf9784a707d9d7f1dc5fea",
+      "hash": "bb24f2baf2bd430be95bab254a0418c4ed2403bc82f5424ab87fc3ad01784f20",
+      "ts": "2026-10-14T00:00:49.767000"
+    },
+    "blr-energy-meter-0490": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc618d",
+      "hash": "9aec24eb20ba84ef5f7cb18dc2865f9739c169e655ad4f6861a0a5d16e03d212",
+      "ts": "2026-10-14T00:00:49.976000"
+    },
+    "blr-energy-meter-0494": {
+      "chainSeq": 221,
+      "eventCount": 221,
+      "eventId": "6acf9784a707d9d7f1dc6167",
+      "hash": "e22f8bb3f609017fa6038e05668caa457293646af1149bf5c2382ccde6bd230b",
+      "ts": "2026-10-14T00:00:49.957000"
+    },
+    "blr-energy-meter-0498": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc614e",
+      "hash": "d7373175f0f60b9b0945edc2483f491bf5be1149d7d974315c208b440fe85748",
+      "ts": "2026-10-14T00:00:49.945000"
+    },
+    "blr-environmental-sensor-0004": {
+      "chainSeq": 227,
+      "eventCount": 227,
+      "eventId": "6acf9784a707d9d7f1dc617a",
+      "hash": "01d08093bc2a727cbefb1dd536bca487ef75d3f6384da2eba1876186517ce113",
+      "ts": "2026-10-14T00:00:49.967000"
+    },
+    "blr-environmental-sensor-0008": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6117",
+      "hash": "a0dc03301195e0baff30c77c5b42feba24f36169ed068119b5a44062d8ecf1d2",
+      "ts": "2026-10-14T00:00:49.917000"
+    },
+    "blr-environmental-sensor-0012": {
+      "chainSeq": 167,
+      "eventCount": 167,
+      "eventId": "6acf9784a707d9d7f1dc616e",
+      "hash": "f811e11dfed3240b2a8da13f8f418e46103d33d020eafd7558fb17d6f077b462",
+      "ts": "2026-10-14T00:00:49.961000"
+    },
+    "blr-environmental-sensor-0016": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc6058",
+      "hash": "8df613ba404ee79cea9c5f9cc118c62f7bf17e056828594ac0b786eaa55dbd88",
+      "ts": "2026-10-14T00:00:49.822000"
+    },
+    "blr-environmental-sensor-0020": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc6094",
+      "hash": "81723ec7b4b32502fa3589f8a8e94248e4eb8822c4a6d49ba198929495daae60",
+      "ts": "2026-10-14T00:00:49.852000"
+    },
+    "blr-environmental-sensor-0024": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc603d",
+      "hash": "ccc1e68daf8206ba8959a1fc2cb37d0f608d5631105396f7fd5f5f3ca1fdda2c",
+      "ts": "2026-10-14T00:00:49.808000"
+    },
+    "blr-environmental-sensor-0028": {
+      "chainSeq": 180,
+      "eventCount": 180,
+      "eventId": "6acf9784a707d9d7f1dc6181",
+      "hash": "e3327426b01e612a27cf10640dd3237b898b6be4a7b254467b9e3fc0d9d04d7c",
+      "ts": "2026-10-14T00:00:49.970000"
+    },
+    "blr-environmental-sensor-0032": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5f4e",
+      "hash": "2e6df5b091d876202198bea7e13a0be7a02b105af24787f354026ef2be9d86a3",
+      "ts": "2026-10-14T00:00:49.689000"
+    },
+    "blr-environmental-sensor-0036": {
+      "chainSeq": 214,
+      "eventCount": 214,
+      "eventId": "6acf9784a707d9d7f1dc59ec",
+      "hash": "8439afa3be8b90319ebf760f3d305457a2c16a2058e9b3bbeb2aad3d8bed0bb1",
+      "ts": "2026-10-14T00:00:49"
+    },
+    "blr-environmental-sensor-0040": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc606f",
+      "hash": "96280ec0cbd3a76976b222d25c9b859c14c279393b6ae49c3a02e249a2c45557",
+      "ts": "2026-10-14T00:00:49.833000"
+    },
+    "blr-environmental-sensor-0044": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc54ea",
+      "hash": "37f53fb754c670bbc5accccbd5fa4d2c523b99adb6d7ec8a69b95c658b915e78",
+      "ts": "2026-10-14T00:00:48.359000"
+    },
+    "blr-environmental-sensor-0048": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5fb3",
+      "hash": "de6712f297c9ce77be18ab34ee57d52d37ffd0b05db0606b352486d58c2cd01e",
+      "ts": "2026-10-14T00:00:49.739000"
+    },
+    "blr-environmental-sensor-0052": {
+      "chainSeq": 217,
+      "eventCount": 217,
+      "eventId": "6acf9784a707d9d7f1dc605a",
+      "hash": "e85880c0e9b37165dae57e2b12ced8dc2c0d3a21af2e4b58f45ef66242929eec",
+      "ts": "2026-10-14T00:00:49.823000"
+    },
+    "blr-environmental-sensor-0056": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5e0d",
+      "hash": "62f380712d3fc717faf0114e55633cb35da9611e88a502351e1c0149590d7e0d",
+      "ts": "2026-10-14T00:00:49.528000"
+    },
+    "blr-environmental-sensor-0060": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc6165",
+      "hash": "411f976f36d1a8ca9fa3aa9dc892315e47ffe457ab912d5f4dc2acf131ffcb0f",
+      "ts": "2026-10-14T00:00:49.956000"
+    },
+    "blr-environmental-sensor-0064": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc613d",
+      "hash": "76dfd9c83d1052a24ecf61b6e7837de0085a3c6887d8f401ea402cfa1b3270e5",
+      "ts": "2026-10-14T00:00:49.936000"
+    },
+    "blr-environmental-sensor-0068": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc6192",
+      "hash": "c043abfa82bcae440c24d58445f248c77233c046898945b3ff6d08e46ecefad9",
+      "ts": "2026-10-14T00:00:49.979000"
+    },
+    "blr-environmental-sensor-0072": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc60f9",
+      "hash": "bde074233ca15df1aa961b4bdb19bc1f54753d47a6390f165c07b81e36f78e3d",
+      "ts": "2026-10-14T00:00:49.902000"
+    },
+    "blr-environmental-sensor-0076": {
+      "chainSeq": 183,
+      "eventCount": 183,
+      "eventId": "6acf9784a707d9d7f1dc6035",
+      "hash": "2bf066031e967f4d46af7a8a71f70e9a01bfd4419efecf8fb2888bf08f004d2e",
+      "ts": "2026-10-14T00:00:49.804000"
+    },
+    "blr-environmental-sensor-0080": {
+      "chainSeq": 177,
+      "eventCount": 177,
+      "eventId": "6acf9784a707d9d7f1dc6157",
+      "hash": "b767885a716e688570df605b0fd374a06e95077a8d7fbf9d8045b9e8bc545383",
+      "ts": "2026-10-14T00:00:49.949000"
+    },
+    "blr-environmental-sensor-0084": {
+      "chainSeq": 162,
+      "eventCount": 162,
+      "eventId": "6acf9784a707d9d7f1dc6128",
+      "hash": "38805200d6f7d9db27f1a0a27b5e0e71505780fd4b7998ca142f120263e0d905",
+      "ts": "2026-10-14T00:00:49.926000"
+    },
+    "blr-environmental-sensor-0088": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc6196",
+      "hash": "b83b61a3f6800fd9539d556347ffdfd9e48b8543444259e67b100ff5d2e581d2",
+      "ts": "2026-10-14T00:00:49.981000"
+    },
+    "blr-environmental-sensor-0092": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc6082",
+      "hash": "6a695cbf08ac3fcff791b735c8faec24c5ef625879999a0cfbcf28cfe56b9272",
+      "ts": "2026-10-14T00:00:49.843000"
+    },
+    "blr-environmental-sensor-0096": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc6079",
+      "hash": "be7056a9233f2687ded6a36c4c08cc01cfb2dfd4c7df5be0f852feebba7e6ea2",
+      "ts": "2026-10-14T00:00:49.838000"
+    },
+    "blr-environmental-sensor-0100": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc60f2",
+      "hash": "4ba2cfaa343da8208c9bf095ee5afe8999799023068cb0b28c6e10eeae40e5b5",
+      "ts": "2026-10-14T00:00:49.899000"
+    },
+    "blr-environmental-sensor-0104": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc5e38",
+      "hash": "655c64b4b940d37620b0f9855caa840730371b18a73375e38f1f320f65d5d388",
+      "ts": "2026-10-14T00:00:49.550000"
+    },
+    "blr-environmental-sensor-0108": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc6145",
+      "hash": "e44433562ea2e84c4b75ce8b90978ed44019df9e0f6d711609452c02057ecff6",
+      "ts": "2026-10-14T00:00:49.940000"
+    },
+    "blr-environmental-sensor-0112": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc6121",
+      "hash": "25d6f4c9d0d889d7d01b87e58914a07428c8b8ddb3b8bbe30e9bb0c5f171b43a",
+      "ts": "2026-10-14T00:00:49.922000"
+    },
+    "blr-environmental-sensor-0116": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc608b",
+      "hash": "cb10d1e84bdcdda3ece54a31e9913111fab7681a761e52874a1b18836a605eb6",
+      "ts": "2026-10-14T00:00:49.847000"
+    },
+    "blr-environmental-sensor-0120": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc60cf",
+      "hash": "d5c3ffc1b911e3428b09e5155144a682b1941c67e922cf05ebacfbb2cddb001d",
+      "ts": "2026-10-14T00:00:49.881000"
+    },
+    "blr-environmental-sensor-0124": {
+      "chainSeq": 174,
+      "eventCount": 174,
+      "eventId": "6acf9784a707d9d7f1dc60cb",
+      "hash": "0e9d5f117c58b713c44fcf381e913a847008a6e6d2378fadbc28bcce3552edc5",
+      "ts": "2026-10-14T00:00:49.879000"
+    },
+    "blr-environmental-sensor-0128": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5f53",
+      "hash": "248e3408c7470ed98f0a2a476ece557fccaf1e10a124015664b03edd5e28a86b",
+      "ts": "2026-10-14T00:00:49.691000"
+    },
+    "blr-environmental-sensor-0132": {
+      "chainSeq": 185,
+      "eventCount": 185,
+      "eventId": "6acf9784a707d9d7f1dc615d",
+      "hash": "884c772a8e1e6d2aec4fe858fffb85935611d1805b51dacc1a52d8e5d256a7a2",
+      "ts": "2026-10-14T00:00:49.952000"
+    },
+    "blr-environmental-sensor-0136": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc5e2c",
+      "hash": "1d97ae9943d282c6f1a2785b6353493f96d2a0fd9d3884e46db4dfe56122d988",
+      "ts": "2026-10-14T00:00:49.544000"
+    },
+    "blr-environmental-sensor-0140": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5e2a",
+      "hash": "379be9449bda9c6f6e7c1ab38b8bd71dd0dd32927ec09852ee6f10d576dd7b6d",
+      "ts": "2026-10-14T00:00:49.543000"
+    },
+    "blr-environmental-sensor-0144": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc5d03",
+      "hash": "4380a17ac93d04ef425261dc4790243299c9cbea2218a4fa8ae0f677bc465151",
+      "ts": "2026-10-14T00:00:49.395000"
+    },
+    "blr-environmental-sensor-0148": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc6029",
+      "hash": "7612e542f3a1ae5abaa844742ed83498731cb6163630d928db529c3512fe88da",
+      "ts": "2026-10-14T00:00:49.798000"
+    },
+    "blr-environmental-sensor-0152": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc5f3c",
+      "hash": "a169a35095701b972bf2f225389aac1c2fb0dfad60ff1e5c80947c9b1cabe126",
+      "ts": "2026-10-14T00:00:49.680000"
+    },
+    "blr-environmental-sensor-0156": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc606c",
+      "hash": "b655389b71043d4adf77db7c404ebb542fbe919bdb9910c1fdb4bee3662514c2",
+      "ts": "2026-10-14T00:00:49.832000"
+    },
+    "blr-environmental-sensor-0160": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc611e",
+      "hash": "f2f1da4168512c696b7c7ffc469e3a2164ab8b8707d8abbade13cc753826e51a",
+      "ts": "2026-10-14T00:00:49.921000"
+    },
+    "blr-environmental-sensor-0164": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6174",
+      "hash": "66ca6a96bed6ccf6194e30925e9dd4573efa48acb8a22b68c966f733e30e0815",
+      "ts": "2026-10-14T00:00:49.964000"
+    },
+    "blr-environmental-sensor-0168": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc60ca",
+      "hash": "fc44beefab54302a2742cd7404f15654c1aaf47021ff2070e4da253959312207",
+      "ts": "2026-10-14T00:00:49.879000"
+    },
+    "blr-environmental-sensor-0172": {
+      "chainSeq": 221,
+      "eventCount": 221,
+      "eventId": "6acf9784a707d9d7f1dc5f47",
+      "hash": "126ef5ed54b7aff0cf8c72b71162858256007fd3681f168e1e265e43a5763dd2",
+      "ts": "2026-10-14T00:00:49.685000"
+    },
+    "blr-environmental-sensor-0176": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc6081",
+      "hash": "9711b496362b172f0232b5a8851bb327b390f8966eb19bec4f511ae5572f9eb9",
+      "ts": "2026-10-14T00:00:49.842000"
+    },
+    "blr-environmental-sensor-0180": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc6021",
+      "hash": "2e1cad191a4c5f158a9ac66eb212dc4200afe5a4758ea087f34dbdf9e282f8d2",
+      "ts": "2026-10-14T00:00:49.794000"
+    },
+    "blr-environmental-sensor-0184": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc5e4c",
+      "hash": "8526a0e926319d19e49a4c4ded0c57863f24d66a3b12bed81799a8febc9dbfaa",
+      "ts": "2026-10-14T00:00:49.560000"
+    },
+    "blr-environmental-sensor-0188": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc6045",
+      "hash": "ee78c63587a795125add125d329dea3242f9ffed3bc13307f9c6dab3c841daf5",
+      "ts": "2026-10-14T00:00:49.812000"
+    },
+    "blr-environmental-sensor-0192": {
+      "chainSeq": 178,
+      "eventCount": 178,
+      "eventId": "6acf9784a707d9d7f1dc5ddb",
+      "hash": "e2722f5f43950b37507dcad3df209fb9a7738b1d0ff062c781e0eb640b387020",
+      "ts": "2026-10-14T00:00:49.503000"
+    },
+    "blr-environmental-sensor-0196": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc5fa2",
+      "hash": "2ec0dffa69e8844963033b34190ecc45298e377775a1bb325133b36cdf15eb25",
+      "ts": "2026-10-14T00:00:49.731000"
+    },
+    "blr-environmental-sensor-0200": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc6191",
+      "hash": "7bf8212c59342b06fedf740902fd450f852768a51817a07b511c4e574f181fe8",
+      "ts": "2026-10-14T00:00:49.978000"
+    },
+    "blr-environmental-sensor-0204": {
+      "chainSeq": 179,
+      "eventCount": 179,
+      "eventId": "6acf9784a707d9d7f1dc604a",
+      "hash": "2100a69bd719b842fe4241eba1856e9b2506c3e34b780aa5c718d8b2e5ed2115",
+      "ts": "2026-10-14T00:00:49.815000"
+    },
+    "blr-environmental-sensor-0208": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc6152",
+      "hash": "5b541ce5acbeec10fa355cd93484fe963772ab2024a57185c1c2fe50df3994fa",
+      "ts": "2026-10-14T00:00:49.947000"
+    },
+    "blr-environmental-sensor-0212": {
+      "chainSeq": 182,
+      "eventCount": 182,
+      "eventId": "6acf9784a707d9d7f1dc607b",
+      "hash": "a988a4b59efcfc4540fce51190502099ebc4356325808826874e26617074e736",
+      "ts": "2026-10-14T00:00:49.839000"
+    },
+    "blr-environmental-sensor-0216": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc6187",
+      "hash": "7d43f63eaa5aa7f24f638ed3518f8bffb80f0bca599ee4f78acdf78cdfa8c218",
+      "ts": "2026-10-14T00:00:49.973000"
+    },
+    "blr-environmental-sensor-0220": {
+      "chainSeq": 217,
+      "eventCount": 217,
+      "eventId": "6acf9784a707d9d7f1dc61b4",
+      "hash": "88ee8843899a30f0313e8c8e99bbc2053dd4e0e6aca9e44e00927ef1f77a30c2",
+      "ts": "2026-10-14T00:00:49.996000"
+    },
+    "blr-environmental-sensor-0224": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc5f7d",
+      "hash": "0c8d613ba73cf8a2831fb528dcb99bb4fd0f5f5f10e54984634c25aeabdfe0cf",
+      "ts": "2026-10-14T00:00:49.712000"
+    },
+    "blr-environmental-sensor-0228": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc616f",
+      "hash": "91130f88506d18e4a391ef6bb12c88dfa548de5a401201537461f39bc5ecf447",
+      "ts": "2026-10-14T00:00:49.961000"
+    },
+    "blr-environmental-sensor-0232": {
+      "chainSeq": 169,
+      "eventCount": 169,
+      "eventId": "6acf9784a707d9d7f1dc6108",
+      "hash": "460ecd6a492a83a6dec19a566a1b5e787bb1e2f250ba071ed0fa96d132b474c0",
+      "ts": "2026-10-14T00:00:49.910000"
+    },
+    "blr-environmental-sensor-0236": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc6172",
+      "hash": "92a986277fb32b88fd0391520dd90dd84f6aaa4331162b9e95172593c80775a5",
+      "ts": "2026-10-14T00:00:49.963000"
+    },
+    "blr-environmental-sensor-0240": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5df0",
+      "hash": "69c405e8fc50c0edea55e9bf559ad797b44a480f0fb26d8a9be4f8db1d233a6b",
+      "ts": "2026-10-14T00:00:49.514000"
+    },
+    "blr-environmental-sensor-0244": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc5d28",
+      "hash": "79eee385f6b177ccf88041eb8b62a0919c53fdd7579d385a1ff9467f21cdd4b9",
+      "ts": "2026-10-14T00:00:49.414000"
+    },
+    "blr-environmental-sensor-0248": {
+      "chainSeq": 179,
+      "eventCount": 179,
+      "eventId": "6acf9784a707d9d7f1dc60a9",
+      "hash": "4fdd5870daa3dd6179146686908af2f239e075b03e5f545384eb8c2b5322e064",
+      "ts": "2026-10-14T00:00:49.862000"
+    },
+    "blr-environmental-sensor-0252": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc5e1c",
+      "hash": "09ac5c6d028047ad7d1583fb6016c1ee066cf00fee2d11e645f6226a65be8930",
+      "ts": "2026-10-14T00:00:49.536000"
+    },
+    "blr-environmental-sensor-0256": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc5bff",
+      "hash": "4c569c6688c5745c052ae28792f4583478b4b8c1ea13fea39bce660568ac2a77",
+      "ts": "2026-10-14T00:00:49.265000"
+    },
+    "blr-environmental-sensor-0260": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc6175",
+      "hash": "e140a352529f13d0fe7da484fb0fc78dbb637aabafede3ac55c247fd170568af",
+      "ts": "2026-10-14T00:00:49.964000"
+    },
+    "blr-environmental-sensor-0264": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc6137",
+      "hash": "83469235f267ad70a670cba4e71eee433b43689395a0c99ca1449c78880b1fca",
+      "ts": "2026-10-14T00:00:49.933000"
+    },
+    "blr-environmental-sensor-0268": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc6193",
+      "hash": "11e59975149c2f3483932122b7dc254e7a2e4e42a42f947a4da08fa89870245d",
+      "ts": "2026-10-14T00:00:49.979000"
+    },
+    "blr-environmental-sensor-0272": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc5fcd",
+      "hash": "fe822721991d5adc841e04699b0dd94b8ce3c402530c4680b344f6d487585ba3",
+      "ts": "2026-10-14T00:00:49.752000"
+    },
+    "blr-environmental-sensor-0276": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc6089",
+      "hash": "ce942b5f8e027c46974a18853756a34a819c726e2d509c99aab75ab96c155497",
+      "ts": "2026-10-14T00:00:49.846000"
+    },
+    "blr-environmental-sensor-0280": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc5ede",
+      "hash": "82e380f21509068fb17d3578738dc0e614fbaff2cc986bf5ce8d0eae6c8dbd03",
+      "ts": "2026-10-14T00:00:49.633000"
+    },
+    "blr-environmental-sensor-0284": {
+      "chainSeq": 224,
+      "eventCount": 224,
+      "eventId": "6acf9784a707d9d7f1dc60d7",
+      "hash": "1ef982f35edb6877ffc964046c998f82ec7716d73b28057efde412ef9eeebc72",
+      "ts": "2026-10-14T00:00:49.885000"
+    },
+    "blr-environmental-sensor-0288": {
+      "chainSeq": 166,
+      "eventCount": 166,
+      "eventId": "6acf9784a707d9d7f1dc5c5f",
+      "hash": "0494331821a15b9fb0c4620c5b4118c3b077c2ca0885c899e66cbedd198d1045",
+      "ts": "2026-10-14T00:00:49.313000"
+    },
+    "blr-environmental-sensor-0292": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc618b",
+      "hash": "b477bc712f0427f42116c9921e826e097b89c0c54768d30fcfb7777585deeb80",
+      "ts": "2026-10-14T00:00:49.975000"
+    },
+    "blr-environmental-sensor-0296": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc5f0e",
+      "hash": "9adcffaa4f833c4de4e409948fa10ac4b2f0c46ec97583623bf717bdb5494718",
+      "ts": "2026-10-14T00:00:49.657000"
+    },
+    "blr-environmental-sensor-0300": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc5f9b",
+      "hash": "b41417499f922d92207d981c06435a8e892edf8308ead084f587bbcc3098c9eb",
+      "ts": "2026-10-14T00:00:49.727000"
+    },
+    "blr-environmental-sensor-0304": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc616c",
+      "hash": "0bde0bac927afac0e6d36c8192e8096fcbcca410a0d37b527598eccdd5e99d9b",
+      "ts": "2026-10-14T00:00:49.960000"
+    },
+    "blr-environmental-sensor-0308": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc60c5",
+      "hash": "9e398a1d99c63b4833b533308ea9f7387b04f0c6a47ecf929c5030578859165a",
+      "ts": "2026-10-14T00:00:49.876000"
+    },
+    "blr-environmental-sensor-0312": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc5ef4",
+      "hash": "d2ab3170a86e1679a4e468c4d970c8c6b6b1d0cfce5f95543a9952a33d0e64aa",
+      "ts": "2026-10-14T00:00:49.644000"
+    },
+    "blr-environmental-sensor-0316": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc5fad",
+      "hash": "29ec5efbaf883d76e81aa7ac82317fe384389ef5ff02540203079a387d079d44",
+      "ts": "2026-10-14T00:00:49.736000"
+    },
+    "blr-environmental-sensor-0320": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc608f",
+      "hash": "f5e2e238f26317d06dffab9dd9ab8d7f2808edf34d09f99f862de2702dcf6df7",
+      "ts": "2026-10-14T00:00:49.849000"
+    },
+    "blr-environmental-sensor-0324": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc60fd",
+      "hash": "588a7941d4641e04626d339263ba152004850f39147da166a0ab5128dd3815bc",
+      "ts": "2026-10-14T00:00:49.904000"
+    },
+    "blr-environmental-sensor-0328": {
+      "chainSeq": 172,
+      "eventCount": 172,
+      "eventId": "6acf9784a707d9d7f1dc60ba",
+      "hash": "7f460e623f38502a172ab03b56fdea8d73fe924ef4c5757d02c87d400bd7cf43",
+      "ts": "2026-10-14T00:00:49.871000"
+    },
+    "blr-environmental-sensor-0332": {
+      "chainSeq": 214,
+      "eventCount": 214,
+      "eventId": "6acf9784a707d9d7f1dc60b8",
+      "hash": "3514ef3fd833c37b2360ffb7bb9203281ab8e6e996a45927ead5a11843a95cf6",
+      "ts": "2026-10-14T00:00:49.870000"
+    },
+    "blr-environmental-sensor-0336": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc6002",
+      "hash": "b18b19384e5859be089c04b6b7d3917a49753ca7a3303cd10c9b260c2f861843",
+      "ts": "2026-10-14T00:00:49.779000"
+    },
+    "blr-environmental-sensor-0340": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc6073",
+      "hash": "e8631a736f83adeab1b78275bde125f7f7782786a0e803032d3375980fb733c9",
+      "ts": "2026-10-14T00:00:49.835000"
+    },
+    "blr-environmental-sensor-0344": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc5e7f",
+      "hash": "13185edfbf13fc2ba5616517134874a13aff3fdf2e805adfe8af5cf8e6f119ba",
+      "ts": "2026-10-14T00:00:49.585000"
+    },
+    "blr-environmental-sensor-0348": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5f61",
+      "hash": "d157acd96985cd633fa47ed44fd1444d9ffc0ecd0e8e629029c7411ffab31aa6",
+      "ts": "2026-10-14T00:00:49.698000"
+    },
+    "blr-environmental-sensor-0352": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc5be8",
+      "hash": "14814d03cdbf2b981b98076d7761ffc043b02acffc9cc8c7c6dd3985b1d68d5e",
+      "ts": "2026-10-14T00:00:49.254000"
+    },
+    "blr-environmental-sensor-0356": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc5cdd",
+      "hash": "964e0203fec31fba5f881f1a1d60c0d7eff12366dfe8f90f53e7cdffb305c440",
+      "ts": "2026-10-14T00:00:49.376000"
+    },
+    "blr-environmental-sensor-0360": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5ac6",
+      "hash": "80a4d55590bd5166b4b6ab09b1edeffd8f6f58cce8f2af4e5ef669eeaa5db4bc",
+      "ts": "2026-10-14T00:00:49.109000"
+    },
+    "blr-environmental-sensor-0364": {
+      "chainSeq": 227,
+      "eventCount": 227,
+      "eventId": "6acf9784a707d9d7f1dc60f6",
+      "hash": "5d6d60a18ffb102bf8c6a54479f65d1f8729017001a2e992baf429ee6c66e809",
+      "ts": "2026-10-14T00:00:49.901000"
+    },
+    "blr-environmental-sensor-0368": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc61bb",
+      "hash": "849be89fccf57c4d0ccfeac02fd7beec5874c15f7b0fe74559481d2ff5ba0698",
+      "ts": "2026-10-14T00:00:49.999000"
+    },
+    "blr-environmental-sensor-0372": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc60cc",
+      "hash": "ad400a3622f0c6b08967d492ce8afcc7942a921184fbc0ba9ebf52bf0f6ccb91",
+      "ts": "2026-10-14T00:00:49.880000"
+    },
+    "blr-environmental-sensor-0376": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc6016",
+      "hash": "f18dfa2a69b0739a2312a4ff009b2bf417103b0a6a57372e774fc568769901b1",
+      "ts": "2026-10-14T00:00:49.789000"
+    },
+    "blr-environmental-sensor-0380": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc6185",
+      "hash": "a074533f4435180092cc5c07856c459088e60938ad8ab197c042a1ff74fd44b4",
+      "ts": "2026-10-14T00:00:49.972000"
+    },
+    "blr-environmental-sensor-0384": {
+      "chainSeq": 154,
+      "eventCount": 154,
+      "eventId": "6acf9784a707d9d7f1dc5e88",
+      "hash": "18dbe2b77e56199fddfdb009808c5b0b4623fa986294d913ac5a6e5c2ff35b7e",
+      "ts": "2026-10-14T00:00:49.590000"
+    },
+    "blr-environmental-sensor-0388": {
+      "chainSeq": 221,
+      "eventCount": 221,
+      "eventId": "6acf9784a707d9d7f1dc6170",
+      "hash": "a11b3e67e282f3c4e3bc1b3dc31863b6e248f393bdb485c03dbb9b990ba43604",
+      "ts": "2026-10-14T00:00:49.962000"
+    },
+    "blr-environmental-sensor-0392": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc601c",
+      "hash": "22325996de6cccb23faa28f85a8394d0622111a15d43ca9a9d95472437522f5f",
+      "ts": "2026-10-14T00:00:49.792000"
+    },
+    "blr-environmental-sensor-0396": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5f9c",
+      "hash": "bc0eac51e1f512f2acd97306e874a0a68cb7f0077980344bc8a3f4880360dd3f",
+      "ts": "2026-10-14T00:00:49.728000"
+    },
+    "blr-environmental-sensor-0400": {
+      "chainSeq": 218,
+      "eventCount": 218,
+      "eventId": "6acf9784a707d9d7f1dc6119",
+      "hash": "e2be03f12d33c8f647fae2081e8397a4797ac9eeed4dbca2851588c7e036cdc6",
+      "ts": "2026-10-14T00:00:49.918000"
+    },
+    "blr-environmental-sensor-0404": {
+      "chainSeq": 168,
+      "eventCount": 168,
+      "eventId": "6acf9784a707d9d7f1dc5f00",
+      "hash": "aa7640a23065e2701a5511b9e7f231d1cdec7eee1307b893833e8d0a200acb79",
+      "ts": "2026-10-14T00:00:49.650000"
+    },
+    "blr-environmental-sensor-0408": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc5aef",
+      "hash": "66dc4f3af924aa0f537cf3c1152e660dba5d1930da706f679ffce41e23dc46a3",
+      "ts": "2026-10-14T00:00:49.129000"
+    },
+    "blr-environmental-sensor-0412": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc5ff7",
+      "hash": "659808dd8266527bad565c42cbfe3e2db2dca15ab2046223a376b26ed4e01aea",
+      "ts": "2026-10-14T00:00:49.773000"
+    },
+    "blr-environmental-sensor-0416": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc615a",
+      "hash": "2572c9f9aa95e01561d9671a4ef324779f978a4308912813084021daf8fa6eb1",
+      "ts": "2026-10-14T00:00:49.951000"
+    },
+    "blr-environmental-sensor-0420": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc5e24",
+      "hash": "fd8ef8838e1dc55c94d24661cb24608a7218dd8ea3a233b0aeadaef64522f4b0",
+      "ts": "2026-10-14T00:00:49.540000"
+    },
+    "blr-environmental-sensor-0424": {
+      "chainSeq": 223,
+      "eventCount": 223,
+      "eventId": "6acf9784a707d9d7f1dc6048",
+      "hash": "73d969ab574fc96a6a22ef843f431cbc99001ab79c2cae06f46ebcf4b8b64330",
+      "ts": "2026-10-14T00:00:49.814000"
+    },
+    "blr-environmental-sensor-0428": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc5fd7",
+      "hash": "5419655bf1b7e927989d896277e0e35a6f37d39ad1c0246e87f3dd9d969ca2c8",
+      "ts": "2026-10-14T00:00:49.757000"
+    },
+    "blr-environmental-sensor-0432": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5eaf",
+      "hash": "0a3af6388e28ee5b8b62d35f1ebfa39470301bfbca9ec2137ac3a289be8ff971",
+      "ts": "2026-10-14T00:00:49.609000"
+    },
+    "blr-environmental-sensor-0436": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5f4f",
+      "hash": "f2267c6dcd32de843cefc80092f01646ea76af1acca92da48b3749f5f774c0d0",
+      "ts": "2026-10-14T00:00:49.689000"
+    },
+    "blr-environmental-sensor-0440": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc6163",
+      "hash": "89772d82045351a70eae7f5bd595661e20a9affcb7d56201a40cf2997482f5f5",
+      "ts": "2026-10-14T00:00:49.955000"
+    },
+    "blr-environmental-sensor-0444": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc602b",
+      "hash": "851d630851a88eb532b85a29ab4a215cf6aee2a13a7b3bcacee3039c2e8a6095",
+      "ts": "2026-10-14T00:00:49.799000"
+    },
+    "blr-environmental-sensor-0448": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc6072",
+      "hash": "4ea0ea7194fca9655e297a18bdfd0569a1cf1ebe3bb50ad9eefef2e9081a8244",
+      "ts": "2026-10-14T00:00:49.835000"
+    },
+    "blr-environmental-sensor-0452": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc6141",
+      "hash": "a599b0dfffe581b6e766950452682c58e83776fbb29092a300a99d1c9cbfebea",
+      "ts": "2026-10-14T00:00:49.938000"
+    },
+    "blr-environmental-sensor-0456": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5ffc",
+      "hash": "7e353f24aaba96cead5c7b0bf1609bc05193c8e3943b1af36d115a58a70b7225",
+      "ts": "2026-10-14T00:00:49.776000"
+    },
+    "blr-environmental-sensor-0460": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc6075",
+      "hash": "35d5101385ccc024ed13b4288c2a48e86718ee95fdfba6d235ad8b07a9f8dce1",
+      "ts": "2026-10-14T00:00:49.836000"
+    },
+    "blr-environmental-sensor-0464": {
+      "chainSeq": 175,
+      "eventCount": 175,
+      "eventId": "6acf9784a707d9d7f1dc61a5",
+      "hash": "ca8f15954068c39acdcc08e60fcea7735f968a59c0c6b813c2fce3fafb55501c",
+      "ts": "2026-10-14T00:00:49.988000"
+    },
+    "blr-environmental-sensor-0468": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc602d",
+      "hash": "0dccf390c1807ed6c4e77ebc6cbcba3c7a472692f2a587ce87d9f0fd6fd0a671",
+      "ts": "2026-10-14T00:00:49.800000"
+    },
+    "blr-environmental-sensor-0472": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc6056",
+      "hash": "317ea60f870c755cc37d4ce48e30b750155a0c8faa6a9f3e80b667d3453d1514",
+      "ts": "2026-10-14T00:00:49.821000"
+    },
+    "blr-environmental-sensor-0476": {
+      "chainSeq": 175,
+      "eventCount": 175,
+      "eventId": "6acf9784a707d9d7f1dc5a21",
+      "hash": "dd98743f1e48fb1928a8b76a1809a5de355122c571c7140871102ce4555fd900",
+      "ts": "2026-10-14T00:00:49.026000"
+    },
+    "blr-environmental-sensor-0480": {
+      "chainSeq": 231,
+      "eventCount": 231,
+      "eventId": "6acf9784a707d9d7f1dc6179",
+      "hash": "dfda0059a1049a668ca6905b078891b301ba85a51211e34a950f317ad02bfcfa",
+      "ts": "2026-10-14T00:00:49.966000"
+    },
+    "blr-environmental-sensor-0484": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5da5",
+      "hash": "78632b5e2d3c1c22df931325cbda8ef993698fabb0ecb7c6f943be6bbe168e1c",
+      "ts": "2026-10-14T00:00:49.476000"
+    },
+    "blr-environmental-sensor-0488": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc61b8",
+      "hash": "5b67f89953c1c3b8680fda79dfde3538a9e09042988e445739ce0b066b408985",
+      "ts": "2026-10-14T00:00:49.998000"
+    },
+    "blr-environmental-sensor-0492": {
+      "chainSeq": 216,
+      "eventCount": 216,
+      "eventId": "6acf9784a707d9d7f1dc6171",
+      "hash": "8f456cb3ffd598dd36cebe054aa624c287a9f565383f7fa022bc213a6aa551ea",
+      "ts": "2026-10-14T00:00:49.962000"
+    },
+    "blr-environmental-sensor-0496": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc59bf",
+      "hash": "b54714ed864c9f9b2883a8cdef264beeeb0756e1e233c041e7963e24ac7695e5",
+      "ts": "2026-10-14T00:00:48.977000"
+    },
+    "blr-environmental-sensor-0500": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc5f9e",
+      "hash": "8e3972f945fd4bccc02fc26d8b3f760b9cb9a3fc155be10191d437d21345e9b0",
+      "ts": "2026-10-14T00:00:49.729000"
+    },
+    "blr-signal-controller-0003": {
+      "chainSeq": 180,
+      "eventCount": 180,
+      "eventId": "6acf9784a707d9d7f1dc6169",
+      "hash": "c84790210269ff01ab270f63d6a79b4276301eb0bcfcf5729f9bf0bd78f584a6",
+      "ts": "2026-10-14T00:00:49.958000"
+    },
+    "blr-signal-controller-0007": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc5ff6",
+      "hash": "bde4f57b07a8c614631f2da771a2ee0e8a04ccf468ce1cc264abe8c282cb03c7",
+      "ts": "2026-10-14T00:00:49.773000"
+    },
+    "blr-signal-controller-0011": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc615c",
+      "hash": "281f6021161252038085cfaf7a0408ad1e6e335c813fb72a6a657b6a79d88aac",
+      "ts": "2026-10-14T00:00:49.952000"
+    },
+    "blr-signal-controller-0015": {
+      "chainSeq": 186,
+      "eventCount": 186,
+      "eventId": "6acf9784a707d9d7f1dc5fe7",
+      "hash": "9f10a33e756c50a1605addf3bec8b002e70079f5ff5ff755ecc5c88f7e06c8bc",
+      "ts": "2026-10-14T00:00:49.765000"
+    },
+    "blr-signal-controller-0019": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc60f7",
+      "hash": "30839084e00220156e6be836bb302372391162feb5982fcdec290890a6334ba2",
+      "ts": "2026-10-14T00:00:49.901000"
+    },
+    "blr-signal-controller-0023": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc5b0d",
+      "hash": "7943ae616597ffd4bdd0740568f6fb4f695c78e5f821093c1b66fe8dac591754",
+      "ts": "2026-10-14T00:00:49.144000"
+    },
+    "blr-signal-controller-0027": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc60cd",
+      "hash": "9955f6a201bdddbf017f08bcd8e71c38a699f4e9de29b1625b09c6dbcc754bcc",
+      "ts": "2026-10-14T00:00:49.880000"
+    },
+    "blr-signal-controller-0031": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc6134",
+      "hash": "34eb17c12d5b44b24b14bccfc098f06f0e19c922884bde769114b9fc61e3194b",
+      "ts": "2026-10-14T00:00:49.932000"
+    },
+    "blr-signal-controller-0035": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc6176",
+      "hash": "c4389d7d81be29f2db051d31780c2f9be0f57b377762b11007b84f6f394e43b3",
+      "ts": "2026-10-14T00:00:49.965000"
+    },
+    "blr-signal-controller-0039": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc5d4b",
+      "hash": "51337cd74af77799a78c8f060bebf333bbd822b29f1639706106e55446b93bc7",
+      "ts": "2026-10-14T00:00:49.431000"
+    },
+    "blr-signal-controller-0043": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc5da8",
+      "hash": "0cf6577166bc5c1f94aaa0615ea93a2217a13626589d1e80dce75c10642ca1ea",
+      "ts": "2026-10-14T00:00:49.478000"
+    },
+    "blr-signal-controller-0047": {
+      "chainSeq": 183,
+      "eventCount": 183,
+      "eventId": "6acf9784a707d9d7f1dc5f22",
+      "hash": "fd5accc54c3e55e531c151f2202906780033e9a1ab197321a4fefecdcba73c43",
+      "ts": "2026-10-14T00:00:49.667000"
+    },
+    "blr-signal-controller-0051": {
+      "chainSeq": 227,
+      "eventCount": 227,
+      "eventId": "6acf9784a707d9d7f1dc5ecb",
+      "hash": "7ba8cd8cb80aa89edef319c5d22b0158a73af9f223f0b27c076b70ac8083b4e9",
+      "ts": "2026-10-14T00:00:49.623000"
+    },
+    "blr-signal-controller-0055": {
+      "chainSeq": 179,
+      "eventCount": 179,
+      "eventId": "6acf9784a707d9d7f1dc6076",
+      "hash": "72082d5f64afae822ce84b4430ff7520be06d0fce92e57e5167011ce085d5726",
+      "ts": "2026-10-14T00:00:49.837000"
+    },
+    "blr-signal-controller-0059": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc6132",
+      "hash": "4f5ff246b406b0c55f40a632d4dc87dc3cbd213be9feae767b50b8f5c647bf9f",
+      "ts": "2026-10-14T00:00:49.931000"
+    },
+    "blr-signal-controller-0063": {
+      "chainSeq": 173,
+      "eventCount": 173,
+      "eventId": "6acf9784a707d9d7f1dc5da3",
+      "hash": "58e91ca1d7d114f470b29a7a2c7c0c67e77266ab19c01857b62a049ac8e553c7",
+      "ts": "2026-10-14T00:00:49.475000"
+    },
+    "blr-signal-controller-0067": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc5e63",
+      "hash": "b2c317623e1db4d32f3b4b52f0ea1b37984758a19102bbf385bf9d4ab0840055",
+      "ts": "2026-10-14T00:00:49.571000"
+    },
+    "blr-signal-controller-0071": {
+      "chainSeq": 226,
+      "eventCount": 226,
+      "eventId": "6acf9784a707d9d7f1dc612d",
+      "hash": "66c591dade700aa675dfa2cffcab1f8f366a5e4edbd1f29add346245b7d167f0",
+      "ts": "2026-10-14T00:00:49.928000"
+    },
+    "blr-signal-controller-0075": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc61b3",
+      "hash": "d47dfb31d5e9623ed3c60866afdffc094dcef25f4927648599ffc21a2a30ab95",
+      "ts": "2026-10-14T00:00:49.995000"
+    },
+    "blr-signal-controller-0079": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc5f90",
+      "hash": "f0d84b01cfdaeb0234c6f3cbfbe18057ff28e7c3c9154171b7291725f287a5f2",
+      "ts": "2026-10-14T00:00:49.722000"
+    },
+    "blr-signal-controller-0083": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc60f8",
+      "hash": "4ab0f507d021f8cb2ac49cd30c00512fad636629f99bc578125ae30579dc8f64",
+      "ts": "2026-10-14T00:00:49.902000"
+    },
+    "blr-signal-controller-0087": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc5f5f",
+      "hash": "9a105662b6fa7cd17e6ba397da04ed22fccb4d5b1357f6f3906031aa9c629bc0",
+      "ts": "2026-10-14T00:00:49.697000"
+    },
+    "blr-signal-controller-0091": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc5fd9",
+      "hash": "674401c30dd0062fd6800155e414e063b568ac73ee53fff5f9741f988ad56262",
+      "ts": "2026-10-14T00:00:49.758000"
+    },
+    "blr-signal-controller-0095": {
+      "chainSeq": 220,
+      "eventCount": 220,
+      "eventId": "6acf9784a707d9d7f1dc60bc",
+      "hash": "6428cabeca467e851fcd7ae9fe40f70b3eee38415fe3e34bbecdb89040d74767",
+      "ts": "2026-10-14T00:00:49.872000"
+    },
+    "blr-signal-controller-0099": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc619c",
+      "hash": "e1078342c8cc9eba36dcbd39c0443f5d41bf7afa9663ccd2799290d10805d8de",
+      "ts": "2026-10-14T00:00:49.984000"
+    },
+    "blr-signal-controller-0103": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc5f4d",
+      "hash": "5b69517417d26c58e7c1f538aad84d02d199525b7d3e69cc113551d27a71bb60",
+      "ts": "2026-10-14T00:00:49.688000"
+    },
+    "blr-signal-controller-0107": {
+      "chainSeq": 219,
+      "eventCount": 219,
+      "eventId": "6acf9784a707d9d7f1dc60fc",
+      "hash": "ed138c9ae463ad08018dc00eeb1d1c86a9f4276b38cc342947a14ff2372e36fa",
+      "ts": "2026-10-14T00:00:49.904000"
+    },
+    "blr-signal-controller-0111": {
+      "chainSeq": 221,
+      "eventCount": 221,
+      "eventId": "6acf9784a707d9d7f1dc6164",
+      "hash": "86d400586a08eb98064ddd67491b7a1e0a68394ee6169c824a59a92b5572c099",
+      "ts": "2026-10-14T00:00:49.956000"
+    },
+    "blr-signal-controller-0115": {
+      "chainSeq": 178,
+      "eventCount": 178,
+      "eventId": "6acf9784a707d9d7f1dc6006",
+      "hash": "622ce2d9e2a9a5a42286e2561f1005a5cd1cc6e80f89f528e6defc352d8595ef",
+      "ts": "2026-10-14T00:00:49.781000"
+    },
+    "blr-signal-controller-0119": {
+      "chainSeq": 216,
+      "eventCount": 216,
+      "eventId": "6acf9784a707d9d7f1dc5ffb",
+      "hash": "dbaef28e1e95e2581f3df11e97b93c848c3016c895792b58fc405697fdb06bce",
+      "ts": "2026-10-14T00:00:49.775000"
+    },
+    "blr-signal-controller-0123": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc5ee1",
+      "hash": "591356e8c6bf762585960032c79abed252625e6f41c0211ddba1619564355182",
+      "ts": "2026-10-14T00:00:49.634000"
+    },
+    "blr-signal-controller-0127": {
+      "chainSeq": 185,
+      "eventCount": 185,
+      "eventId": "6acf9784a707d9d7f1dc6148",
+      "hash": "c85cf76e83ea89831f24f4f39c96a342ad5e23f8c4571a614153a3d97fd15cc7",
+      "ts": "2026-10-14T00:00:49.942000"
+    },
+    "blr-signal-controller-0131": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc60c7",
+      "hash": "858abbd4bea1c8dcac3469562edd309a51c3401c0cce995553434795e7ce5131",
+      "ts": "2026-10-14T00:00:49.877000"
+    },
+    "blr-signal-controller-0135": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc6160",
+      "hash": "102a8688223f96bd6b43ccf0787890a93866ab52253fee1ab0821db64e78006a",
+      "ts": "2026-10-14T00:00:49.954000"
+    },
+    "blr-signal-controller-0139": {
+      "chainSeq": 193,
+      "eventCount": 193,
+      "eventId": "6acf9784a707d9d7f1dc610b",
+      "hash": "8cfd06fd350ebb8d1465dbc8d76fc0b677df54f962dbef4b552520dcf3fb1533",
+      "ts": "2026-10-14T00:00:49.911000"
+    },
+    "blr-signal-controller-0143": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc61ac",
+      "hash": "95ab939fd2c55a74c514f16a564e4674309a622f2152ca7764b6c9fe52fa1999",
+      "ts": "2026-10-14T00:00:49.992000"
+    },
+    "blr-signal-controller-0147": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc5cf5",
+      "hash": "9f4e247cb22160ed11a15dcfc29f1f55f0c42e10cb1cc81c1075390e3965f35d",
+      "ts": "2026-10-14T00:00:49.388000"
+    },
+    "blr-signal-controller-0151": {
+      "chainSeq": 235,
+      "eventCount": 235,
+      "eventId": "6acf9784a707d9d7f1dc616d",
+      "hash": "a59a8c4610d6e74ee1b4a21705fcfdd578c7de475dc03ad41b58821ed63b5d97",
+      "ts": "2026-10-14T00:00:49.960000"
+    },
+    "blr-signal-controller-0155": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc6126",
+      "hash": "5b48a3d945a387f8df15e3c006d22525137f03359c3638981c61f2e476e959f2",
+      "ts": "2026-10-14T00:00:49.925000"
+    },
+    "blr-signal-controller-0159": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc60de",
+      "hash": "8b4d15259c3273bed3a496399c90ba17542490dd71711af9f118aed4790deba5",
+      "ts": "2026-10-14T00:00:49.889000"
+    },
+    "blr-signal-controller-0163": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc61ab",
+      "hash": "37c4d31f53888ea37c5ce2fe5e4a624816f0a0197e0c98f616ff78862c2e1aaf",
+      "ts": "2026-10-14T00:00:49.991000"
+    },
+    "blr-signal-controller-0167": {
+      "chainSeq": 180,
+      "eventCount": 180,
+      "eventId": "6acf9784a707d9d7f1dc610e",
+      "hash": "6d00b73b7b012158afecbc821080d15a2f1c4cf4fb2bf0b9edcbadf89df65ae0",
+      "ts": "2026-10-14T00:00:49.913000"
+    },
+    "blr-signal-controller-0171": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc5f73",
+      "hash": "861bd585f1e6064aeb18c0ade650584d5936da95f80383280851c9231a600557",
+      "ts": "2026-10-14T00:00:49.707000"
+    },
+    "blr-signal-controller-0175": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc61af",
+      "hash": "9235b45b9de625e5476afae350df6427eefb932e458f8768bea8f56ab165db3a",
+      "ts": "2026-10-14T00:00:49.993000"
+    },
+    "blr-signal-controller-0179": {
+      "chainSeq": 185,
+      "eventCount": 185,
+      "eventId": "6acf9784a707d9d7f1dc5ee6",
+      "hash": "cd1b2b5d4fda1fa3b2d58f78606deb096ca0bb5b791ffb393db0072b2f74e4ef",
+      "ts": "2026-10-14T00:00:49.637000"
+    },
+    "blr-signal-controller-0183": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc60c3",
+      "hash": "5223707abc5a1eb91a2a90f07fa6e2430dd13657e86ed6251a65465f20bc7728",
+      "ts": "2026-10-14T00:00:49.875000"
+    },
+    "blr-signal-controller-0187": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc6161",
+      "hash": "1648174a87c28a5ea4e243f58368d84ee8a32994bdbb843a42d6d99fa0cc3e90",
+      "ts": "2026-10-14T00:00:49.954000"
+    },
+    "blr-signal-controller-0191": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc5da0",
+      "hash": "f1d70dfbefe12b333f6c11a507fc90c386c6bdb88a2db01a84d61e4545eb7837",
+      "ts": "2026-10-14T00:00:49.474000"
+    },
+    "blr-signal-controller-0195": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5fa4",
+      "hash": "b4b3680395f9cbc6fabc4ffa9b87984c0c46a1154c3b458f895d20434632b056",
+      "ts": "2026-10-14T00:00:49.732000"
+    },
+    "blr-signal-controller-0199": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc5fe4",
+      "hash": "ab12fe2b7b79b2dac17f4952a0a2f56123c671e3ac0160dcba3230871730dfc8",
+      "ts": "2026-10-14T00:00:49.764000"
+    },
+    "blr-signal-controller-0203": {
+      "chainSeq": 176,
+      "eventCount": 176,
+      "eventId": "6acf9784a707d9d7f1dc6123",
+      "hash": "763453c335b32719f973468e3bfd90f64fb531c12b681f011051c9aaeb2023c9",
+      "ts": "2026-10-14T00:00:49.923000"
+    },
+    "blr-signal-controller-0207": {
+      "chainSeq": 192,
+      "eventCount": 192,
+      "eventId": "6acf9784a707d9d7f1dc5f0b",
+      "hash": "28f201ef2065e891a52e39e6168b5279ba70d7c1fe18d53b9dc8343d52528012",
+      "ts": "2026-10-14T00:00:49.655000"
+    },
+    "blr-signal-controller-0211": {
+      "chainSeq": 194,
+      "eventCount": 194,
+      "eventId": "6acf9784a707d9d7f1dc5fe2",
+      "hash": "0087e0791087f8bcc4827ad4e27a28d3293d9e3d1795e5dc0a5ab30185a792ac",
+      "ts": "2026-10-14T00:00:49.763000"
+    },
+    "blr-signal-controller-0215": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc609b",
+      "hash": "1fd406b8f48ff337af362609ac71fb9255e60ac80caf1834b51b4fdfa1cb2e93",
+      "ts": "2026-10-14T00:00:49.855000"
+    },
+    "blr-signal-controller-0219": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc61ad",
+      "hash": "2b099ce075977a6f4872d0f23b92ae72eb725bfa28771e6b15e3f0605ddb9218",
+      "ts": "2026-10-14T00:00:49.992000"
+    },
+    "blr-signal-controller-0223": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc6131",
+      "hash": "a15c18cc7a16a30ca5270cd804ecdb7150d4a96d125978fb135890fbdb18c65e",
+      "ts": "2026-10-14T00:00:49.930000"
+    },
+    "blr-signal-controller-0227": {
+      "chainSeq": 203,
+      "eventCount": 203,
+      "eventId": "6acf9784a707d9d7f1dc60a2",
+      "hash": "7e67ed665cf2b1ed8939f1e6f0d6f77fe1958b9c57a536f2c66f9bbbe01dbf77",
+      "ts": "2026-10-14T00:00:49.859000"
+    },
+    "blr-signal-controller-0231": {
+      "chainSeq": 222,
+      "eventCount": 222,
+      "eventId": "6acf9784a707d9d7f1dc6154",
+      "hash": "3952eb807c3b5c4217b3528ec8fdaa6bc82b473dea65d4e4d96a4e8ca1b75e46",
+      "ts": "2026-10-14T00:00:49.948000"
+    },
+    "blr-signal-controller-0235": {
+      "chainSeq": 238,
+      "eventCount": 238,
+      "eventId": "6acf9784a707d9d7f1dc614f",
+      "hash": "e603c10d0eb5fba6ee95fcec26492f7d20728ba55bcaf221aa7fcf792568cdee",
+      "ts": "2026-10-14T00:00:49.945000"
+    },
+    "blr-signal-controller-0239": {
+      "chainSeq": 225,
+      "eventCount": 225,
+      "eventId": "6acf9784a707d9d7f1dc605d",
+      "hash": "8fe0b3bc4bf7ae9520989d8ff0265201fe19fd2a11ef2cc473255b25432b3d87",
+      "ts": "2026-10-14T00:00:49.824000"
+    },
+    "blr-signal-controller-0243": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc5fc1",
+      "hash": "72569cd949afc93907f99918b3b77713449f9665408af50a00f93cd3d212456c",
+      "ts": "2026-10-14T00:00:49.746000"
+    },
+    "blr-signal-controller-0247": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc619f",
+      "hash": "0b6257a7d054b86255f95cc021156e2ee6dcb1e9ed3b3693ff6906314c951db6",
+      "ts": "2026-10-14T00:00:49.985000"
+    },
+    "blr-signal-controller-0251": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc5ee0",
+      "hash": "ad06b984e984bc9360f3c9a676014676300a2f10e0a09b0d16d16809d59ebce3",
+      "ts": "2026-10-14T00:00:49.634000"
+    },
+    "blr-signal-controller-0255": {
+      "chainSeq": 189,
+      "eventCount": 189,
+      "eventId": "6acf9784a707d9d7f1dc608d",
+      "hash": "c1c03de18f111c80e1eee4737135ca6803c009d68d7e47bb25552099ee4f6c2b",
+      "ts": "2026-10-14T00:00:49.848000"
+    },
+    "blr-signal-controller-0259": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc6008",
+      "hash": "283bc5129cf5545ad3311d566de9729cf78134d27d5ca249e02146e8c2d9731c",
+      "ts": "2026-10-14T00:00:49.782000"
+    },
+    "blr-signal-controller-0263": {
+      "chainSeq": 221,
+      "eventCount": 221,
+      "eventId": "6acf9784a707d9d7f1dc5ea8",
+      "hash": "0804fbc05c72ee941dc2a2a6a6accc39b20afe671cbc1973b23c08d2711e8e5e",
+      "ts": "2026-10-14T00:00:49.606000"
+    },
+    "blr-signal-controller-0267": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc5ef1",
+      "hash": "cc002969731e5b4fb4e47a39daed81d1c3e25aea7072a58489d14ea186251e19",
+      "ts": "2026-10-14T00:00:49.642000"
+    },
+    "blr-signal-controller-0271": {
+      "chainSeq": 200,
+      "eventCount": 200,
+      "eventId": "6acf9784a707d9d7f1dc6138",
+      "hash": "73d2353156f25475463ff59c58a98c092dac63fa755db5c51dc4c8eec77f61fe",
+      "ts": "2026-10-14T00:00:49.934000"
+    },
+    "blr-signal-controller-0275": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc6078",
+      "hash": "a6b088eb8629b74c15c35f9bb9fbdc7a18f8eaa566622d19c3e444b843e17bf2",
+      "ts": "2026-10-14T00:00:49.838000"
+    },
+    "blr-signal-controller-0279": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc5f52",
+      "hash": "8518746b3ac12ced32f2c8b125ebb3eb0258c64fdd89f03c004956c8acd146aa",
+      "ts": "2026-10-14T00:00:49.691000"
+    },
+    "blr-signal-controller-0283": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc5c8a",
+      "hash": "99ef779b82b6193d83dc4f62b9599424cc0ac4ded37430242663477c822ea2b8",
+      "ts": "2026-10-14T00:00:49.335000"
+    },
+    "blr-signal-controller-0287": {
+      "chainSeq": 205,
+      "eventCount": 205,
+      "eventId": "6acf9784a707d9d7f1dc5e70",
+      "hash": "78cf0140423cc938b6e0acd34d49206658682ef9b565b68021dde0fc57123a75",
+      "ts": "2026-10-14T00:00:49.578000"
+    },
+    "blr-signal-controller-0291": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc6054",
+      "hash": "42c4e173e2654fb3ae1c8d7ed4e4b6de5dcb4ce9cc46a59ebed32df50a395d9a",
+      "ts": "2026-10-14T00:00:49.820000"
+    },
+    "blr-signal-controller-0295": {
+      "chainSeq": 207,
+      "eventCount": 207,
+      "eventId": "6acf9784a707d9d7f1dc5f17",
+      "hash": "c14c3c2b05ece1cab698261f7906cabfc89768e4b117114bbc8403210dd7e2dc",
+      "ts": "2026-10-14T00:00:49.661000"
+    },
+    "blr-signal-controller-0299": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc61b2",
+      "hash": "c3446fc2820105c7159956f4d719fd65f36ecb4abbae784246364da5ad80c2ef",
+      "ts": "2026-10-14T00:00:49.995000"
+    },
+    "blr-signal-controller-0303": {
+      "chainSeq": 188,
+      "eventCount": 188,
+      "eventId": "6acf9784a707d9d7f1dc5d37",
+      "hash": "7a5f9bb405181c24c683c81e3fe8512d334a97ebd5dd45a0ae49e0af6db5146b",
+      "ts": "2026-10-14T00:00:49.421000"
+    },
+    "blr-signal-controller-0307": {
+      "chainSeq": 217,
+      "eventCount": 217,
+      "eventId": "6acf9784a707d9d7f1dc614a",
+      "hash": "ad15fe86d23bbbc6289b05a0e08fdcb6d6045c2a2992c63c3c77e8e764d332b8",
+      "ts": "2026-10-14T00:00:49.943000"
+    },
+    "blr-signal-controller-0311": {
+      "chainSeq": 212,
+      "eventCount": 212,
+      "eventId": "6acf9784a707d9d7f1dc61a2",
+      "hash": "0f63c0f21ca7e3af1a675c659b44e5f7880b668d4e3b0f611a6e980b586ed591",
+      "ts": "2026-10-14T00:00:49.987000"
+    },
+    "blr-signal-controller-0315": {
+      "chainSeq": 218,
+      "eventCount": 218,
+      "eventId": "6acf9784a707d9d7f1dc6025",
+      "hash": "fe71a4d2d669991df01df5f50209f96e8a864a2ed43e13229d9ccd3188548fd1",
+      "ts": "2026-10-14T00:00:49.796000"
+    },
+    "blr-signal-controller-0319": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc5bcd",
+      "hash": "3dd3986a2bfc6a33df03e528a75a058d304d4ffe5da234141b1c84b62a8ebf40",
+      "ts": "2026-10-14T00:00:49.240000"
+    },
+    "blr-signal-controller-0323": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc5f33",
+      "hash": "4b5729323d7ae324b6004282917089cc95a31bd436cb35290dd77dab4fc7454f",
+      "ts": "2026-10-14T00:00:49.675000"
+    },
+    "blr-signal-controller-0327": {
+      "chainSeq": 219,
+      "eventCount": 219,
+      "eventId": "6acf9784a707d9d7f1dc5eb4",
+      "hash": "8fdfde845dd7ae970d74cfaadbd3c5e4421e29482f7aaf1999d330969160e555",
+      "ts": "2026-10-14T00:00:49.612000"
+    },
+    "blr-signal-controller-0331": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc611b",
+      "hash": "af7166c021b155c608f2517b1a06899f19f28ef05863502d15c1ab8aa4f54213",
+      "ts": "2026-10-14T00:00:49.919000"
+    },
+    "blr-signal-controller-0335": {
+      "chainSeq": 184,
+      "eventCount": 184,
+      "eventId": "6acf9784a707d9d7f1dc5fc7",
+      "hash": "35d6740539656bdc881854877341fa7ccb4dfc39ac3d6c0320c39908cbea8c28",
+      "ts": "2026-10-14T00:00:49.749000"
+    },
+    "blr-signal-controller-0339": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc6150",
+      "hash": "42271d5f4ad5c44e522ae5f5d6853b133cb269025906a8f018a173f4577adca9",
+      "ts": "2026-10-14T00:00:49.946000"
+    },
+    "blr-signal-controller-0343": {
+      "chainSeq": 226,
+      "eventCount": 226,
+      "eventId": "6acf9784a707d9d7f1dc60b9",
+      "hash": "0b976ba75ae922dd88b0417d4defe60bc64017cda388b4e99378681b1c519877",
+      "ts": "2026-10-14T00:00:49.870000"
+    },
+    "blr-signal-controller-0347": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc60bd",
+      "hash": "7d9c385df48cacbc81cbaca47161d5c91385f3d84d1ea6c17cedfe969d66074e",
+      "ts": "2026-10-14T00:00:49.872000"
+    },
+    "blr-signal-controller-0351": {
+      "chainSeq": 182,
+      "eventCount": 182,
+      "eventId": "6acf9784a707d9d7f1dc6156",
+      "hash": "da26230911aa639888d6f045d32c5ffbdb5f06710fd02a565aefa58123d03dbf",
+      "ts": "2026-10-14T00:00:49.949000"
+    },
+    "blr-signal-controller-0355": {
+      "chainSeq": 235,
+      "eventCount": 235,
+      "eventId": "6acf9784a707d9d7f1dc61a8",
+      "hash": "9a39221d2ed1edc015ddf8db93ce08eeca52bc0abb357fd91b6af15c04ca2116",
+      "ts": "2026-10-14T00:00:49.990000"
+    },
+    "blr-signal-controller-0359": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc607a",
+      "hash": "aebf74f4b1538f89d1a21b0a98d4646050d6ff6b537afa79edabd25a844750f6",
+      "ts": "2026-10-14T00:00:49.839000"
+    },
+    "blr-signal-controller-0363": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc5e7c",
+      "hash": "186d727e7a01da7aa549cd0fb6f8517d013cd0293be016fb1a579e450112fa15",
+      "ts": "2026-10-14T00:00:49.584000"
+    },
+    "blr-signal-controller-0367": {
+      "chainSeq": 202,
+      "eventCount": 202,
+      "eventId": "6acf9784a707d9d7f1dc6100",
+      "hash": "afe4a91c7e4808f0a9553c2e13b798a6b3df4454ef6a575374862dbd3463d6dd",
+      "ts": "2026-10-14T00:00:49.906000"
+    },
+    "blr-signal-controller-0371": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc5f95",
+      "hash": "66187d16665c678d1171ad12ab47aa14dca8fe7ba3d9f7c0b32e6ecbf8726e61",
+      "ts": "2026-10-14T00:00:49.724000"
+    },
+    "blr-signal-controller-0375": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc5a8f",
+      "hash": "fda5188f9f85887673bdd115345f7e7ef31c9f31796aa348673247ed349705f8",
+      "ts": "2026-10-14T00:00:49.081000"
+    },
+    "blr-signal-controller-0379": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc5fc4",
+      "hash": "ee67134a4f1e122bdf7a2abc45051ee4415898850cb29374c9ddbe3fa6b56b76",
+      "ts": "2026-10-14T00:00:49.748000"
+    },
+    "blr-signal-controller-0383": {
+      "chainSeq": 206,
+      "eventCount": 206,
+      "eventId": "6acf9784a707d9d7f1dc5e40",
+      "hash": "935f281ae455c31e32ba48df8bc30b5f684a75ed4c9e80702f109e7c15dea5a0",
+      "ts": "2026-10-14T00:00:49.554000"
+    },
+    "blr-signal-controller-0387": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc600e",
+      "hash": "da94823defb1c9586b402161c97eb8be8011f2acde3c400124c13806e9f915b8",
+      "ts": "2026-10-14T00:00:49.785000"
+    },
+    "blr-signal-controller-0391": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc602f",
+      "hash": "78e80496807c02af5070c12051331c8dc0ddd0c3034ba712b8059738831a4789",
+      "ts": "2026-10-14T00:00:49.801000"
+    },
+    "blr-signal-controller-0395": {
+      "chainSeq": 214,
+      "eventCount": 214,
+      "eventId": "6acf9784a707d9d7f1dc5c24",
+      "hash": "c5b66333dc898d9dfcaa82a3c1851a5e3a01576fec4a7358a93d73f832b41692",
+      "ts": "2026-10-14T00:00:49.284000"
+    },
+    "blr-signal-controller-0399": {
+      "chainSeq": 196,
+      "eventCount": 196,
+      "eventId": "6acf9784a707d9d7f1dc6186",
+      "hash": "bacdc084b4c5606ae53807a058b5272de2153c36855f01c571838c2d3ec5f232",
+      "ts": "2026-10-14T00:00:49.973000"
+    },
+    "blr-signal-controller-0403": {
+      "chainSeq": 210,
+      "eventCount": 210,
+      "eventId": "6acf9784a707d9d7f1dc612e",
+      "hash": "cd0fdd0a0564b2af5aca5c28d47a16795b60fa0c9bbf812faa90e00ac16a9a56",
+      "ts": "2026-10-14T00:00:49.929000"
+    },
+    "blr-signal-controller-0407": {
+      "chainSeq": 209,
+      "eventCount": 209,
+      "eventId": "6acf9784a707d9d7f1dc61b7",
+      "hash": "cfa940e51de51f6ec3f571b02fde065235d9eed4dbfc3520653cfc3088ea8cf4",
+      "ts": "2026-10-14T00:00:49.997000"
+    },
+    "blr-signal-controller-0411": {
+      "chainSeq": 213,
+      "eventCount": 213,
+      "eventId": "6acf9784a707d9d7f1dc6177",
+      "hash": "308b5c7e2f433226eeb321361f5644179ce5e03c9e2b7b8ec6e0a7523ab37aa3",
+      "ts": "2026-10-14T00:00:49.965000"
+    },
+    "blr-signal-controller-0415": {
+      "chainSeq": 214,
+      "eventCount": 214,
+      "eventId": "6acf9784a707d9d7f1dc5968",
+      "hash": "eac908100f716b6ef9f052b35bfedd9b1ea25695ed096157ec73bf0c7a871ac7",
+      "ts": "2026-10-14T00:00:48.934000"
+    },
+    "blr-signal-controller-0419": {
+      "chainSeq": 208,
+      "eventCount": 208,
+      "eventId": "6acf9784a707d9d7f1dc5cf9",
+      "hash": "bd083e3dc6894ca3528326854ef71d138cad5d9dbe138a4ff9eebf9f2380b430",
+      "ts": "2026-10-14T00:00:49.390000"
+    },
+    "blr-signal-controller-0423": {
+      "chainSeq": 211,
+      "eventCount": 211,
+      "eventId": "6acf9784a707d9d7f1dc5e5e",
+      "hash": "08618889dfd3e8eb778e6e7ad43be06e40690c8fc0f462be1d84f652b64f8705",
+      "ts": "2026-10-14T00:00:49.569000"
+    },
+    "blr-signal-controller-0427": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc61b1",
+      "hash": "90b28d33fc2fe9c329069fe762cbb96c7023dbbcb582a2e04d431f10915f4c1e",
+      "ts": "2026-10-14T00:00:49.994000"
+    },
+    "blr-signal-controller-0431": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5f46",
+      "hash": "57bc8934411cd7e52e288e020691c1f50ce3b2a79b651a04ffbbec83e022159f",
+      "ts": "2026-10-14T00:00:49.685000"
+    },
+    "blr-signal-controller-0435": {
+      "chainSeq": 178,
+      "eventCount": 178,
+      "eventId": "6acf9784a707d9d7f1dc5af0",
+      "hash": "ad73a8ea5ec75d03739eb9f5d96fe40bd1c5d5ae3c1e5329433081622f5683cd",
+      "ts": "2026-10-14T00:00:49.130000"
+    },
+    "blr-signal-controller-0439": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc6104",
+      "hash": "cdb552026c1e1a6a753697576e7c34d7a0a5c80276374d33999f52d1841b798e",
+      "ts": "2026-10-14T00:00:49.908000"
+    },
+    "blr-signal-controller-0443": {
+      "chainSeq": 214,
+      "eventCount": 214,
+      "eventId": "6acf9784a707d9d7f1dc608c",
+      "hash": "ec87a848e0db915ee9d1010838214fe3f3daf93aa97b25734b4f574550555376",
+      "ts": "2026-10-14T00:00:49.848000"
+    },
+    "blr-signal-controller-0447": {
+      "chainSeq": 197,
+      "eventCount": 197,
+      "eventId": "6acf9784a707d9d7f1dc6182",
+      "hash": "6e3df6a20f4460975838e73b683840ef959cfef9a5584e498d4bff8f24db22ae",
+      "ts": "2026-10-14T00:00:49.971000"
+    },
+    "blr-signal-controller-0451": {
+      "chainSeq": 204,
+      "eventCount": 204,
+      "eventId": "6acf9784a707d9d7f1dc60d9",
+      "hash": "6e6373b734dda7d6ed7b6793d5d2cd1aec0b232c82bf79a90edf9ca33797123b",
+      "ts": "2026-10-14T00:00:49.886000"
+    },
+    "blr-signal-controller-0455": {
+      "chainSeq": 178,
+      "eventCount": 178,
+      "eventId": "6acf9784a707d9d7f1dc5cc6",
+      "hash": "e282ad6ff938cf1db039c5d11365a322ac9391c2963db6fd2e7ee0b6ab08679f",
+      "ts": "2026-10-14T00:00:49.365000"
+    },
+    "blr-signal-controller-0459": {
+      "chainSeq": 198,
+      "eventCount": 198,
+      "eventId": "6acf9784a707d9d7f1dc6115",
+      "hash": "119b1609629c41863491d97fecff0bf8b969a2726abcc6ad5b256653e7becced",
+      "ts": "2026-10-14T00:00:49.916000"
+    },
+    "blr-signal-controller-0463": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc5c4d",
+      "hash": "b3e2673ab93fb6d770e1ce34f1758341bc6735455265acb7884e57135998d8b4",
+      "ts": "2026-10-14T00:00:49.304000"
+    },
+    "blr-signal-controller-0467": {
+      "chainSeq": 187,
+      "eventCount": 187,
+      "eventId": "6acf9784a707d9d7f1dc5db5",
+      "hash": "5f3f7e3dc6871b5bf839f10a0e6c7df54ebc2fc47ff3fcdd6bdd8ef7ebbd1fd2",
+      "ts": "2026-10-14T00:00:49.484000"
+    },
+    "blr-signal-controller-0471": {
+      "chainSeq": 215,
+      "eventCount": 215,
+      "eventId": "6acf9784a707d9d7f1dc5ef8",
+      "hash": "5f1726437831f5d1887facdd89dbddb8b404357ce5ad14f446a3a2785986d7ed",
+      "ts": "2026-10-14T00:00:49.646000"
+    },
+    "blr-signal-controller-0475": {
+      "chainSeq": 191,
+      "eventCount": 191,
+      "eventId": "6acf9784a707d9d7f1dc5f57",
+      "hash": "5a8a2e6d7010b03724b8d3edc454a5f35adb85f1b62644368c9bfe177bf1947b",
+      "ts": "2026-10-14T00:00:49.693000"
+    },
+    "blr-signal-controller-0479": {
+      "chainSeq": 190,
+      "eventCount": 190,
+      "eventId": "6acf9784a707d9d7f1dc60dc",
+      "hash": "e02801b346b22730e991fc3b5bcd71c56ef2e352f142082b2b839a0537bcb7ea",
+      "ts": "2026-10-14T00:00:49.888000"
+    },
+    "blr-signal-controller-0483": {
+      "chainSeq": 199,
+      "eventCount": 199,
+      "eventId": "6acf9784a707d9d7f1dc5c55",
+      "hash": "8387132ce6549264ffe8701e7304eeabb845636aaa3e38b802b59d29c3a52a91",
+      "ts": "2026-10-14T00:00:49.308000"
+    },
+    "blr-signal-controller-0487": {
+      "chainSeq": 216,
+      "eventCount": 216,
+      "eventId": "6acf9784a707d9d7f1dc55e1",
+      "hash": "c4d1961eeeaff29d4eb070a16a9452ee421d45f118a92238927677b52a7af740",
+      "ts": "2026-10-14T00:00:48.482000"
+    },
+    "blr-signal-controller-0491": {
+      "chainSeq": 195,
+      "eventCount": 195,
+      "eventId": "6acf9784a707d9d7f1dc5d95",
+      "hash": "609bf5af5cbd265ccc46c61e5d71f144609b010f3cc18832bd989db24618f4b8",
+      "ts": "2026-10-14T00:00:49.468000"
+    },
+    "blr-signal-controller-0495": {
+      "chainSeq": 183,
+      "eventCount": 183,
+      "eventId": "6acf9784a707d9d7f1dc60da",
+      "hash": "3d7fd35c646320f2190c3bd433cb155c1d3880b7806c6415c8d22556eca95f3d",
+      "ts": "2026-10-14T00:00:49.887000"
+    },
+    "blr-signal-controller-0499": {
+      "chainSeq": 201,
+      "eventCount": 201,
+      "eventId": "6acf9784a707d9d7f1dc61a6",
+      "hash": "f88628de6066d032f04c4c94fdf179c16b7fa2aba38b8a40afbfd0cc76380c5f",
+      "ts": "2026-10-14T00:00:49.989000"
+    }
+  }
+}

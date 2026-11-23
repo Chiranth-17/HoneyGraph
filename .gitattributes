@@ -1,0 +1,21 @@
+* text=auto
+
+# Preserve binary reports and visual artifacts byte-for-byte.
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pptx binary
+*.docx binary
+*.xlsx binary
+
+# Shell entry points must run after checkout on Windows and Linux.
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.yml text eol=lf
+.env.example text eol=lf
+
+# Two trailing spaces are valid Markdown line breaks.
+*.md whitespace=-blank-at-eol

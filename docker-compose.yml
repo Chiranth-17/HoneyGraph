@@ -1,0 +1,153 @@
+name: honeygraph
+
+x-mongo-common: &mongo-common
+  image: mongo:7.0
+  restart: unless-stopped
+  command:
+    - mongod
+    - --replSet
+    - rs0
+    - --bind_ip_all
+    - --keyFile
+    - /run/mongo-keyfile/mongo-keyfile
+  volumes:
+    - mongo-keyfile:/run/mongo-keyfile:ro
+  networks:
+    - honeygraph
+  healthcheck:
+    test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand({ ping: 1 }).ok"]
+    interval: 5s
+    timeout: 5s
+    retries: 30
+
+services:
+  keyfile-init:
+    image: alpine:3.20
+    restart: "no"
+    command: ["sh", "-c", "cp /source/mongo-keyfile /target/mongo-keyfile && chmod 400 /target/mongo-keyfile && chown 999:999 /target/mongo-keyfile"]
+    volumes:
+      - ./secrets:/source:ro
+      - mongo-keyfile:/target
+
+  mongo1:
+    <<: *mongo-common
+    depends_on:
+      keyfile-init:
+        condition: service_completed_successfully
+    hostname: mongo1
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+    ports:
+      - "${MONGO1_PORT:-27017}:27017"
+    volumes:
+      - mongo1-data:/data/db
+      - mongo-keyfile:/run/mongo-keyfile:ro
+
+  mongo2:
+    <<: *mongo-common
+    depends_on:
+      keyfile-init:
+        condition: service_completed_successfully
+    hostname: mongo2
+    ports:
+      - "${MONGO2_PORT:-27018}:27017"
+    volumes:
+      - mongo2-data:/data/db
+      - mongo-keyfile:/run/mongo-keyfile:ro
+
+  mongo3:
+    <<: *mongo-common
+    depends_on:
+      keyfile-init:
+        condition: service_completed_successfully
+    hostname: mongo3
+    ports:
+      - "${MONGO3_PORT:-27019}:27017"
+    volumes:
+      - mongo3-data:/data/db
+      - mongo-keyfile:/run/mongo-keyfile:ro
+
+  mongo-init:
+    image: mongo:7.0
+    restart: "no"
+    depends_on:
+      mongo1:
+        condition: service_healthy
+      mongo2:
+        condition: service_healthy
+      mongo3:
+        condition: service_healthy
+    environment:
+      MONGO_ROOT_USERNAME: ${MONGO_ROOT_USERNAME}
+      MONGO_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+    volumes:
+      - ./mongo/rs-init.sh:/scripts/rs-init.sh:ro
+    entrypoint: ["sh", "/scripts/rs-init.sh"]
+    networks:
+      - honeygraph
+
+  backend:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    depends_on:
+      mongo-init:
+        condition: service_completed_successfully
+    environment:
+      MONGO_DATABASE: ${MONGO_DATABASE}
+      MONGO_INGEST_URI: mongodb://${MONGO_INGEST_USERNAME}:${MONGO_INGEST_PASSWORD}@mongo1:27017,mongo2:27017,mongo3:27017/${MONGO_DATABASE}?authSource=${MONGO_DATABASE}&replicaSet=rs0
+      MONGO_API_URI: mongodb://${MONGO_API_USERNAME}:${MONGO_API_PASSWORD}@mongo1:27017,mongo2:27017,mongo3:27017/${MONGO_DATABASE}?authSource=${MONGO_DATABASE}&replicaSet=rs0
+      MONGO_RULE_ADMIN_URI: mongodb://${MONGO_RULE_ADMIN_USERNAME}:${MONGO_RULE_ADMIN_PASSWORD}@mongo1:27017,mongo2:27017,mongo3:27017/${MONGO_DATABASE}?authSource=${MONGO_DATABASE}&replicaSet=rs0
+      MONGO_TAMPER_DEMO_URI: mongodb://${MONGO_TAMPER_USERNAME}:${MONGO_TAMPER_PASSWORD}@mongo1:27017,mongo2:27017,mongo3:27017/${MONGO_DATABASE}?authSource=${MONGO_DATABASE}&replicaSet=rs0
+      MONGO_DETECTOR_URI: mongodb://${MONGO_DETECTOR_USERNAME}:${MONGO_DETECTOR_PASSWORD}@mongo1:27017,mongo2:27017,mongo3:27017/${MONGO_DATABASE}?authSource=${MONGO_DATABASE}&replicaSet=rs0
+      MONGO_API_PASSWORD: ${MONGO_API_PASSWORD}
+      MONGO_RULE_ADMIN_PASSWORD: ${MONGO_RULE_ADMIN_PASSWORD}
+      MONGO_TAMPER_PASSWORD: ${MONGO_TAMPER_PASSWORD}
+      JWT_SECRET: ${JWT_SECRET}
+      JWT_ALGORITHM: ${JWT_ALGORITHM}
+      JWT_ACCESS_TOKEN_MINUTES: ${JWT_ACCESS_TOKEN_MINUTES}
+    ports:
+      - "${BACKEND_PORT:-8000}:8000"
+    networks:
+      - honeygraph
+
+  detector:
+    build:
+      context: ./backend
+    restart: unless-stopped
+    command: ["python", "-m", "workers.detector"]
+    depends_on:
+      mongo-init:
+        condition: service_completed_successfully
+    environment:
+      MONGO_DATABASE: ${MONGO_DATABASE}
+      MONGO_DETECTOR_URI: mongodb://${MONGO_DETECTOR_USERNAME}:${MONGO_DETECTOR_PASSWORD}@mongo1:27017,mongo2:27017,mongo3:27017/${MONGO_DATABASE}?authSource=${MONGO_DATABASE}&replicaSet=rs0
+      RULE_MAX_TIME_MS: 2000
+    networks:
+      - honeygraph
+
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: ${VITE_API_URL:-/api}
+        VITE_WS_URL: ${VITE_WS_URL:-}
+    restart: unless-stopped
+    depends_on:
+      - backend
+    ports:
+      - "${FRONTEND_PORT:-5173}:80"
+    networks:
+      - honeygraph
+
+volumes:
+  mongo1-data:
+  mongo2-data:
+  mongo3-data:
+  mongo-keyfile:
+
+networks:
+  honeygraph:
+    driver: bridge
+

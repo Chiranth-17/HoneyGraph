@@ -1,0 +1,2 @@
+samples_total,samples_realtime,excluded_stale,p50_ms,p95_ms,p99_ms,target_p95_under_1000,note
+172,158,14,200.23,460.64,536.12,True,excluded 14 alerts with latency>=60s (test harness artifacts)

@@ -1,0 +1,73 @@
+{
+  "recordedAt": "2026-11-04T16:21:43.641310+00:00",
+  "scenario": "lateral_movement",
+  "seed": 502,
+  "eventsInserted": 3,
+  "devices": [
+    "blr-camera-0181",
+    "blr-environmental-sensor-0324",
+    "blr-signal-controller-0087"
+  ],
+  "elapsedSeconds": 0.175,
+  "alerts": [
+    {
+      "id": "6aeb5b9833e3f83a85f0edeb",
+      "ruleId": "R-LATERAL-06",
+      "deviceId": "blr-signal-controller-0087",
+      "stage": "lateral-movement",
+      "severity": 8,
+      "latencyMs": 11.0
+    },
+    {
+      "id": "6aeb5b9833e3f83a85f0edec",
+      "ruleId": "R-LATERAL-06",
+      "deviceId": "blr-environmental-sensor-0324",
+      "stage": "lateral-movement",
+      "severity": 8,
+      "latencyMs": 20.0
+    },
+    {
+      "id": "6aeb5b9833e3f83a85f0eded",
+      "ruleId": "R-LATERAL-06",
+      "deviceId": "blr-camera-0181",
+      "stage": "lateral-movement",
+      "severity": 8,
+      "latencyMs": 30.0
+    }
+  ],
+  "incident": {
+    "id": "6aeb5b984d453188ad04b42e",
+    "status": "open",
+    "hops": [
+      {
+        "hop": 0,
+        "actor": "10.42.1.7",
+        "targetIp": "10.42.0.87"
+      },
+      {
+        "hop": 1,
+        "actor": "10.42.0.87",
+        "targetIp": "10.42.1.74"
+      },
+      {
+        "hop": 2,
+        "actor": "10.42.1.74",
+        "targetIp": "10.42.0.181"
+      }
+    ]
+  },
+  "riskScores": [
+    {
+      "deviceId": "blr-camera-0181",
+      "score": 8.0
+    },
+    {
+      "deviceId": "blr-environmental-sensor-0324",
+      "score": 8.0
+    },
+    {
+      "deviceId": "blr-signal-controller-0087",
+      "score": 8.0
+    }
+  ]
+}

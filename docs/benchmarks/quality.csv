@@ -1,0 +1,9 @@
+scenario,labels,true_positive_alerts,false_positive_alerts,missed_labels,precision,recall,note
+mirai_bruteforce,1,1,0,0,1.0,1.0,isolated benchmark run; seeded data
+recon,1,1,0,0,1.0,1.0,isolated benchmark run; seeded data
+credential_stuffing,1,1,0,0,1.0,1.0,isolated benchmark run; seeded data
+exfil_burst,1,1,0,0,1.0,1.0,isolated benchmark run; seeded data
+lateral_movement,1,1,0,0,1.0,1.0,isolated benchmark run; seeded data
+mqtt_abuse,1,1,0,0,1.0,1.0,isolated benchmark run; seeded data
+log_tamper,1,1,0,0,1.0,1.0,isolated benchmark run; seeded data
+overall,7,7,0,0,1.0,1.0,fresh isolated run covering all 7 scenarios (target >= 0.90)

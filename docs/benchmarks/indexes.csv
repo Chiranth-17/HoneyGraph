@@ -1,0 +1,9 @@
+index,state,documents_examined,keys_examined,time_ms,returned
+device_ts,before,1000000,0,611,2000
+device_ts,after,2000,2000,9,2000
+src_ts,before,1000000,0,574,4000
+src_ts,after,4000,4000,14,4000
+event_type_ts,before,1000000,0,658,3334
+event_type_ts,after,3334,3334,9,3334
+alerts_actor_ts,before,100000,0,53,400
+alerts_actor_ts,after,400,400,2,400

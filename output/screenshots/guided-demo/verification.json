@@ -1,0 +1,47 @@
+[
+  {
+    "name": "mirai_bruteforce",
+    "counts": {
+      "events": 18,
+      "alerts": 10,
+      "incidents": 1
+    },
+    "repeatCorrelationSameIncident": true,
+    "allAlertsLinked": true,
+    "incidentId": "6afe6cced5f2dd49f74b0c0b"
+  },
+  {
+    "name": "lateral_movement",
+    "counts": {
+      "events": 4,
+      "alerts": 4,
+      "incidents": 1
+    },
+    "repeatCorrelationSameIncident": true,
+    "allAlertsLinked": true,
+    "incidentId": "6afe6cefd5f2dd49f74b0c12",
+    "orderedHops": [
+      {
+        "hop": 0,
+        "actor": "10.42.1.171",
+        "targetIp": "10.42.1.42"
+      },
+      {
+        "hop": 1,
+        "actor": "10.42.1.42",
+        "targetIp": "10.42.0.240"
+      },
+      {
+        "hop": 2,
+        "actor": "10.42.0.240",
+        "targetIp": "10.42.1.172"
+      },
+      {
+        "hop": 3,
+        "actor": "10.42.1.172",
+        "targetIp": "10.42.0.130"
+      }
+    ],
+    "everyInjectedHopRecovered": true
+  }
+]

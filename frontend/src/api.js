@@ -1,0 +1,3 @@
+const API = import.meta.env.VITE_API_URL || '/api';
+export async function api(path,{token,method='GET',body,signal}={}){const r=await fetch(`${API}${path}`,{method,signal,headers:{'Content-Type':'application/json',...(token?{Authorization:`Bearer ${token}`}:{})},body:body===undefined?undefined:JSON.stringify(body)});if(!r.ok){let data={};try{data=await r.json()}catch{}throw new Error(typeof data.detail==='string'?data.detail:`Request failed (${r.status})`)}return r.status===204?null:r.json()}
+export function wsUrl(token){const configured=import.meta.env.VITE_WS_URL;if(configured)return `${configured}?token=${encodeURIComponent(token)}`;const scheme=location.protocol==='https:'?'wss':'ws';return `${scheme}://${location.host}/ws/alerts?token=${encodeURIComponent(token)}`}

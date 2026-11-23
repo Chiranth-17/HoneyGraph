@@ -1,0 +1,2 @@
+old_primary,new_primary,election_seconds,post_failover_ingest,worker_resumed
+mongo1,mongo2,6.694,True,True

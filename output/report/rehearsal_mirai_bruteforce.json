@@ -1,0 +1,96 @@
+{
+  "recordedAt": "2026-11-04T16:22:25.352714+00:00",
+  "scenario": "mirai_bruteforce",
+  "seed": 504,
+  "eventsInserted": 18,
+  "devices": [
+    "blr-camera-0293",
+    "blr-energy-meter-0238",
+    "blr-energy-meter-0422",
+    "blr-environmental-sensor-0188"
+  ],
+  "elapsedSeconds": 1.07,
+  "alerts": [
+    {
+      "id": "6aeb5bc133e3f83a85f0ee11",
+      "ruleId": "R-LIVE-c46c2c51",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "credential-access",
+      "severity": 9,
+      "latencyMs": 33.0
+    },
+    {
+      "id": "6aeb5bc133e3f83a85f0ee12",
+      "ruleId": "R-LIVE-1791991908523",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "credential-access",
+      "severity": 9,
+      "latencyMs": 38.0
+    },
+    {
+      "id": "6aeb5bc133e3f83a85f0ee19",
+      "ruleId": "R-BRUTE-01",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "credential-access",
+      "severity": 7,
+      "latencyMs": 74.0
+    },
+    {
+      "id": "6aeb5bc133e3f83a85f0ee2c",
+      "ruleId": "R-LIVE-c46c2c51",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "credential-access",
+      "severity": 9,
+      "latencyMs": 139.0
+    },
+    {
+      "id": "6aeb5bc133e3f83a85f0ee2d",
+      "ruleId": "R-LIVE-1791991908523",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "credential-access",
+      "severity": 9,
+      "latencyMs": 144.0
+    },
+    {
+      "id": "6aeb5bc133e3f83a85f0ee31",
+      "ruleId": "R-BRUTE-SUCCESS-02",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "initial-access",
+      "severity": 9,
+      "latencyMs": 164.0
+    },
+    {
+      "id": "6aeb5bc133e3f83a85f0ee32",
+      "ruleId": "R-OFFHOURS-ADMIN-09",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "execution",
+      "severity": 8,
+      "latencyMs": 170.0
+    },
+    {
+      "id": "6aeb5bc133e3f83a85f0ee33",
+      "ruleId": "R-NEWUSER-CMD-10",
+      "deviceId": "blr-energy-meter-0238",
+      "stage": "execution",
+      "severity": 8,
+      "latencyMs": 175.0
+    }
+  ],
+  "incident": {
+    "id": "6aeb5bc24be07076de61cc54",
+    "status": "open",
+    "hops": [
+      {
+        "hop": 0,
+        "actor": "198.51.100.153",
+        "targetIp": "10.42.0.238"
+      }
+    ]
+  },
+  "riskScores": [
+    {
+      "deviceId": "blr-energy-meter-0238",
+      "score": 68.0
+    }
+  ]
+}
