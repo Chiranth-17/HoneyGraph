@@ -923,3 +923,11 @@ PASS 8 incident lifecycle history
 - **Grounding:** checked the current source, Compose/Makefile, prior progress and guided-demo evidence. Distinguishes automatic detection from deferred correlation, stored risk from continuous recalculation, the dashboard tamper-attempt scenario from the Integrity three-mode mutation demo, and standalone telemetry/checkpoint operations from running Compose services. Keeps all credentials out of the guide.
 - **Verification:** rendered all 24 PDF pages with Poppler, reviewed all pages and enlarged the graph figure. Verified the final page count/bookmarks, required topic coverage and text bounds; no text clipping found. Matching notes contain the full speaking text. Saved figures and test totals are explicitly dated 19 November, rather than presented as fresh results.
 - **Scope:** documentation only. No stack startup, traffic generation, database mutations, rule edits, application changes, test reruns or benchmark reruns were performed for this guide.
+
+### 2026-11-23 - Private GitHub publication
+
+- **Published:** `https://github.com/Chiranth-17/HoneyGraph`, private repository, default branch `main`. Initial project commit `b05c053` was pushed successfully after the owner completed GitHub sign-in.
+- **Included:** 178 project files covering backend, frontend sources and lockfile, MongoDB setup, Compose/Makefile, tests, benchmarks, documentation, screenshots, reports, presentation and demo guides.
+- **Excluded:** actual `.env`, generated MongoDB keyfile/secrets, installed dependencies, caches, frontend build output, temporary work and ZIP archives. `.env.example` remains included. A scan of publication candidates found no matches for the configured local passwords or JWT secret.
+- **Portability:** added Git attributes to preserve binary reports byte-for-byte and use LF for shell/container configuration; verified all 45 binary artifacts against their staged Git content. Updated README login configuration and first-clone setup, removed machine-specific file links and corrected the Swagger address.
+- **Verification:** initial push completed and `main` tracks `origin/main`. Application code and the local running configuration were not changed; application tests and benchmarks were not rerun for repository publication. Docker database volumes are not stored in Git.
